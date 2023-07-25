@@ -1,0 +1,4 @@
+﻿.idea
+**/bin
+**/obj
+ReportGenerator.BitbucketServerCodeCoverage.sln.DotSettings.user
