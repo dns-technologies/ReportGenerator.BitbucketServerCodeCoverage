@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root CoveredStatements="24009" TotalStatements="154297" CoveragePercent="16" ReportType="DetailedXml" DotCoverVersion="2021.2.2">
+    <FileIndices>
+        <File Index="2958" Name="D:\BuildAgent\work\a8d86d4fb3b10a0\Dns.Tech\Exceptions\InformationException.cs" ChecksumAlgorithm="SHA256" Checksum="D0C0DAF426B5BE352D23421E1523706ABE660AC57F8AA393BFFA32EB1285058E" />
+    </FileIndices>
+<Assembly Name="Dns.Tech" CoveredStatements="196" TotalStatements="637" CoveragePercent="31">
+    <Namespace Name="Dns.Tech.Exceptions" CoveredStatements="2" TotalStatements="17" CoveragePercent="0">
+        <Type Name="InformationException" CoveredStatements="2" TotalStatements="9" CoveragePercent="0">
+            <Method Name=".ctor():System.Void" CoveredStatements="2" TotalStatements="2" CoveragePercent="0">
+                <Statement FileIndex="2958" Line="8" Column="9" EndLine="8" EndColumn="38" Covered="True" />
+                <Statement FileIndex="2958" Line="8" Column="41" EndLine="8" EndColumn="42" Covered="True" />
+            </Method>
+            <Method Name=".ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <Statement FileIndex="2958" Line="13" Column="70" EndLine="13" EndColumn="89" Covered="False" />
+                <Statement FileIndex="2958" Line="14" Column="11" EndLine="14" EndColumn="12" Covered="False" />
+            </Method>
+            <Method Name=".ctor(System.String):System.Void" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <Statement FileIndex="2958" Line="9" Column="55" EndLine="9" EndColumn="68" Covered="False" />
+                <Statement FileIndex="2958" Line="9" Column="71" EndLine="9" EndColumn="72" Covered="False" />
+            </Method>
+            <Method Name=".ctor(System.String,System.Exception):System.Void" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <Statement FileIndex="2958" Line="10" Column="72" EndLine="10" EndColumn="92" Covered="False" />
+                <Statement FileIndex="2958" Line="10" Column="95" EndLine="10" EndColumn="96" Covered="False" />
+            </Method>
+            <Method Name="ToString():System.String" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2958" Line="18" Column="13" EndLine="18" EndColumn="28" Covered="False" />
+            </Method>
+        </Type>
+    </Namespace>
+</Assembly>
+    <Assembly Name="Dns.Tech" CoveredStatements="196" TotalStatements="637" CoveragePercent="31">
+        <Namespace Name="Dns.Tech.Exceptions" CoveredStatements="0" TotalStatements="17" CoveragePercent="0">
+            <Type Name="InformationException" CoveredStatements="0" TotalStatements="9" CoveragePercent="0">
+                <Method Name=".ctor():System.Void" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                    <Statement FileIndex="2958" Line="8" Column="9" EndLine="8" EndColumn="38" Covered="False" />
+                    <Statement FileIndex="2958" Line="8" Column="41" EndLine="8" EndColumn="42" Covered="False" />
+                </Method>
+                <Method Name=".ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                    <Statement FileIndex="2958" Line="13" Column="70" EndLine="13" EndColumn="89" Covered="False" />
+                    <Statement FileIndex="2958" Line="14" Column="11" EndLine="14" EndColumn="12" Covered="False" />
+                </Method>
+                <Method Name=".ctor(System.String):System.Void" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                    <Statement FileIndex="2958" Line="9" Column="55" EndLine="9" EndColumn="68" Covered="False" />
+                    <Statement FileIndex="2958" Line="9" Column="71" EndLine="9" EndColumn="72" Covered="False" />
+                </Method>
+                <Method Name=".ctor(System.String,System.Exception):System.Void" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                    <Statement FileIndex="2958" Line="10" Column="72" EndLine="10" EndColumn="92" Covered="False" />
+                    <Statement FileIndex="2958" Line="10" Column="95" EndLine="10" EndColumn="96" Covered="False" />
+                </Method>
+                <Method Name="ToString():System.String" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                    <Statement FileIndex="2958" Line="18" Column="13" EndLine="18" EndColumn="28" Covered="True" />
+                </Method>
+            </Type>
+        </Namespace>
+    </Assembly>
+</Root>

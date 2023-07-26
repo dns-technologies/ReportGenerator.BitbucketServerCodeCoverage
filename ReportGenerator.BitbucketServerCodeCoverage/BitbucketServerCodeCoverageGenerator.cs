@@ -2,6 +2,7 @@
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Runtime.CompilerServices;
@@ -80,7 +81,11 @@ namespace ReportGenerator.BitbucketServerCodeCoverage
         private void RunConverter(Stream stream)
         {
             using var converter = new FileCoverageJsonConverter(stream);
-            foreach (var filesCoverageValue in _filesCoverage.Values)
+            var enumeration = _filesCoverage.Values.AsEnumerable();
+            if (Environment.GetEnvironmentVariable("SORT_FILE_PATHS") == "1")
+                enumeration = enumeration.OrderBy(e => e.FilePath);
+                
+            foreach (var filesCoverageValue in enumeration)
             {
                 converter.Write(filesCoverageValue);
             }
