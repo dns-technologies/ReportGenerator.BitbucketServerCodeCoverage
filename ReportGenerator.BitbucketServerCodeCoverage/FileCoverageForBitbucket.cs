@@ -37,7 +37,7 @@ namespace ReportGenerator.BitbucketServerCodeCoverage
         /// <returns>Transformed path</returns>
         internal static string TransformToUnixPath(string cwd, string filePath)
         {
-            if (Path.IsPathRooted(filePath))
+            if (IsPathRooted(filePath))
             {
                 //sort of "normalizing" paths
                 filePath = Path.GetFullPath(filePath);
@@ -48,7 +48,7 @@ namespace ReportGenerator.BitbucketServerCodeCoverage
                     do
                     {
                         idx++;
-                    } while (filePath[idx] != Path.DirectorySeparatorChar && idx < filePath.Length);
+                    } while (idx < filePath.Length && filePath[idx] != Path.DirectorySeparatorChar);
 
                     idx++;
 
@@ -62,6 +62,25 @@ namespace ReportGenerator.BitbucketServerCodeCoverage
                 filePath = filePath.Replace('\\', '/');
             
             return filePath;
+        }
+
+        private static bool IsPathRooted(string path)
+        {
+            if (Path.IsPathRooted(path))
+                return true;
+            
+            //copied IsPathRooted implementation from Windows runtime
+            int length = path.Length;
+            if (length >= 1 && Path.DirectorySeparatorChar == path[0])
+                return true;
+            return length >= 2 && IsValidDriveChar(path[0]) && path[1] == ':';
+        }
+        
+        private static bool IsValidDriveChar(char value)
+        {
+            if (value >= 'A' && value <= 'Z')
+                return true;
+            return value >= 'a' && value <= 'z';
         }
 
         /// <summary>
