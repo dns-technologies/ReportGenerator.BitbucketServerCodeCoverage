@@ -1,0 +1,1289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root CoveredStatements="24009" TotalStatements="154297" CoveragePercent="16" ReportType="DetailedXml" DotCoverVersion="2021.2.2">
+    <FileIndices>
+        <File Index="2946" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/RefreshPageError.cs" ChecksumAlgorithm="SHA256" Checksum="4AECE8EEC54F2542BD7AA57E98867AA24259F70133796A57F920E827C8C5FC60" />
+        <File Index="2947" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Utils/EmailUtility.cs" ChecksumAlgorithm="SHA256" Checksum="D856A1C592F6D55842176D1C525A9E1D7841CB39FBD1A0C541DC106FBD52CD17" />
+        <File Index="2948" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Types/Empty.cs" ChecksumAlgorithm="SHA256" Checksum="F693ECD09BC68A210E1B8F6BF52A47B9B69083B83568990F07748E0990CB29EF" />
+        <File Index="2949" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Types/EmptyDictionary.cs" ChecksumAlgorithm="SHA256" Checksum="409DFEC5E34B6BF84E09D5343D24644E76AC8FAE572ED5B31A7280C25D4F8B02" />
+        <File Index="2950" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Middlewares/ProcVersioningMiddleware.cs" ChecksumAlgorithm="SHA256" Checksum="03F642FB17240D87064C2E7D86884E26C7B9196BC0095166BD2CDFC7073C568B" />
+        <File Index="2951" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Extensions/CollectionExtensionMethods.cs" ChecksumAlgorithm="SHA256" Checksum="D8C571F9819434B1FC54682677777FE6AD77B757C9A9091A6E6D65738BFF442D" />
+        <File Index="2952" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Extensions/DateTimeExtensions.cs" ChecksumAlgorithm="SHA256" Checksum="C812A826336132359289226823F23665015543CA179AEF50A0252AB02A776B1A" />
+        <File Index="2953" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Extensions/DictionaryExtensions.cs" ChecksumAlgorithm="SHA256" Checksum="B65E27DC9BDE48A650441F9609A665058AB5FF3BC4E24D3AD798CF66E4EE299E" />
+        <File Index="2954" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Extensions/ExtensionMethods.cs" ChecksumAlgorithm="SHA256" Checksum="05FAC11A82342F24F291BFDD2903E50AF3F732F7917A15C54BA659AF98AC2102" />
+        <File Index="2955" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Extensions/MethodResultDeconstructor.cs" ChecksumAlgorithm="SHA256" Checksum="40A314A8FF4E5895F1533FABE4066F58940266A3DFAB40C0A0D7678650F0F01D" />
+        <File Index="2956" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Extensions/StringExtensions.cs" ChecksumAlgorithm="SHA256" Checksum="0B2BA8331989CE9A368A52B3C7A937616DCF364084A19C196AA99F46328EFDB7" />
+        <File Index="2957" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Extensions/UriExtensions.cs" ChecksumAlgorithm="SHA256" Checksum="AD13690202E2B76B78C0EDBE200AEC0FC26559AA8343CFF69043C1953863B7CE" />
+        <File Index="2958" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Exceptions/InformationException.cs" ChecksumAlgorithm="SHA256" Checksum="D0C0DAF426B5BE352D23421E1523706ABE660AC57F8AA393BFFA32EB1285058E" />
+        <File Index="2959" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Exceptions/LoggingException.cs" ChecksumAlgorithm="SHA256" Checksum="857F3913561EBEAE6DA5377E213CA64618A816ECF03FE85FDCF2C87211604211" />
+        <File Index="2960" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Enums/EnumExtensions.cs" ChecksumAlgorithm="SHA256" Checksum="E02FF39A1BBB67B19EEF6C1D946F76CA45F681E5CEEB9D695C5FEE508677FEF7" />
+        <File Index="2961" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Enums/EnumTextAttribute.cs" ChecksumAlgorithm="SHA256" Checksum="777EC8328FEBB22E5B1778DA2157B924BDE33D9594D850B975B9A211A57D8C22" />
+        <File Index="2962" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Enums/EnumTextNotFilledException.cs" ChecksumAlgorithm="SHA256" Checksum="3C0ABD2C23AF978C2A810C1A354B4BAB9E0281B744D4F9888464E5AFB48C0B9E" />
+        <File Index="2963" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/DependencyInjection/DnsServiceProvider.cs" ChecksumAlgorithm="SHA256" Checksum="D044AF75403DC9283ABA22DA23A73DEB7E6AB6A0262A41A1EC27300D9F64CBDF" />
+        <File Index="2964" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/DependencyInjection/Dependencies/CommonCountryProvider.cs" ChecksumAlgorithm="SHA256" Checksum="0030616BE672667D08E26FBB4C1F6F09928F48CFACD5D7BA6F9792EC4E80EEDC" />
+        <File Index="2965" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/DependencyInjection/Dependencies/DependencyProvider.cs" ChecksumAlgorithm="SHA256" Checksum="1E580CFBDD64A77622744E4A0F4358BF4F21F173928DAE145C168C478CC6EA0B" />
+        <File Index="2966" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/DependencyInjection/Dependencies/RegisterDecoratedManagerExtensions.cs" ChecksumAlgorithm="SHA256" Checksum="5635F00CA6FA3B3891682C0876C56759EAE1066603A47926FFAA5ED49CC00995" />
+        <File Index="2967" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Dependencies/RegisterFactoryExtensions.cs" ChecksumAlgorithm="SHA256" Checksum="1D8DB4CF4A928E8A443B1C06FDA55E5983835DECD6F32EB45DD90658C114CD29" />
+        <File Index="2968" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Dependencies/ServiceScopeProvider.cs" ChecksumAlgorithm="SHA256" Checksum="0C9228BC80E1D1B3E15109362D446FEE0E55C8BE00B33013ACA3727EC51D82AF" />
+        <File Index="2969" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Caching/CacheEntry.cs" ChecksumAlgorithm="SHA256" Checksum="4AC0D9406791A7BA792D2A3E406007B8A0DC173C1E95AEA3EC2449CC0DE7150C" />
+        <File Index="2970" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Caching/CacheGroup.cs" ChecksumAlgorithm="SHA256" Checksum="55DFC3D90A2DDAF995E2D46D449C8696D9D2749A295C6587B0D3400381E1A326" />
+        <File Index="2971" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Caching/CacheHelper.cs" ChecksumAlgorithm="SHA256" Checksum="3ED68AFA13D028BF944BE2448C364A1B3E6D79DDF5C820413D40475FC337FF39" />
+        <File Index="2972" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Caching/CacheManager.cs" ChecksumAlgorithm="SHA256" Checksum="CC49C5D9A4D2F2C388B8649E1308E801B92E4478AB1497921262E0878B80D37A" />
+        <File Index="2973" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Caching/CacheStorageException.cs" ChecksumAlgorithm="SHA256" Checksum="04A0510E9FE6B795DE68EE3EB7437857D099DDB38A591A403CCD368E5ADEEB6D" />
+        <File Index="2974" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Caching/DbCache.cs" ChecksumAlgorithm="SHA256" Checksum="57CCEEF921A66E1CE80593D613219F9B8992FFBDA98A29D3293EF7219F54A0EC" />
+        <File Index="2975" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Caching/InMemoryCache.cs" ChecksumAlgorithm="SHA256" Checksum="0AFCCE4637E97209B578CF407A0DF21B1F8BB0385C896C392A32883DBD637F1A" />
+        <File Index="2976" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/Caching/RedisCacheStorage.cs" ChecksumAlgorithm="SHA256" Checksum="03744BB8E0458F515A62D491AFE05E27C60E82D3CA3E9F1352450694D11B906A" />
+        <File Index="2977" Name="/BuildAgent/work/a8d86d4fb3b10a0/Dns.Tech/AsyncContext/AsyncContext.cs" ChecksumAlgorithm="SHA256" Checksum="7EAE0BED3C2E8567DF983C41ECD662C29529CF7C07D0C11A6916DAAD210AFEE8" />
+    </FileIndices>
+<Assembly Name="Dns.Tech" CoveredStatements="196" TotalStatements="637" CoveragePercent="31">
+    <Namespace Name="Dns.Tech" CoveredStatements="1" TotalStatements="4" CoveragePercent="100">
+        <Type Name="RefreshPageError" CoveredStatements="0" TotalStatements="4" CoveragePercent="100">
+            <Method Name=".ctor(System.String):System.Void" CoveredStatements="4" TotalStatements="3" CoveragePercent="100">
+                <Statement FileIndex="2946" Line="13" Column="9" EndLine="13" EndColumn="48" Covered="True" />
+                <Statement FileIndex="2946" Line="15" Column="13" EndLine="15" EndColumn="32" Covered="True" />
+                <Statement FileIndex="2946" Line="16" Column="9" EndLine="16" EndColumn="10" Covered="True" />
+            </Method>
+            <Method Name="ToString(System.String,System.IFormatProvider):System.String" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Statement FileIndex="2946" Line="21" Column="13" EndLine="21" EndColumn="73" Covered="True" />
+            </Method>
+        </Type>
+    </Namespace>
+    <Namespace Name="Dns.Tech.AsyncContext" CoveredStatements="7" TotalStatements="10" CoveragePercent="70">
+        <Type Name="AsyncContext" CoveredStatements="7" TotalStatements="10" CoveragePercent="70">
+            <Method Name=".ctor():System.Void" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+                <Statement FileIndex="2977" Line="17" Column="9" EndLine="17" EndColumn="30" Covered="True" />
+                <Statement FileIndex="2977" Line="20" Column="9" EndLine="20" EndColumn="10" Covered="True" />
+            </Method>
+            <Method Name=".ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor):System.Void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+                <Statement FileIndex="2977" Line="12" Column="9" EndLine="12" EndColumn="70" Covered="True" />
+                <Statement FileIndex="2977" Line="14" Column="13" EndLine="14" EndColumn="95" Covered="True" />
+                <Statement FileIndex="2977" Line="15" Column="9" EndLine="15" EndColumn="10" Covered="True" />
+            </Method>
+            <Method Name=".ctor(System.Threading.CancellationToken):System.Void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0">
+                <Statement FileIndex="2977" Line="22" Column="9" EndLine="22" EndColumn="53" Covered="False" />
+                <Statement FileIndex="2977" Line="24" Column="13" EndLine="24" EndColumn="27" Covered="False" />
+                <Statement FileIndex="2977" Line="25" Column="9" EndLine="25" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="get_Token():System.Threading.CancellationToken" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Statement FileIndex="2977" Line="28" Column="42" EndLine="28" EndColumn="46" Covered="True" />
+            </Method>
+            <Method Name="set_Token(System.Threading.CancellationToken):System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Statement FileIndex="2977" Line="28" Column="47" EndLine="28" EndColumn="51" Covered="True" />
+            </Method>
+        </Type>
+    </Namespace>
+    <Namespace Name="Dns.Tech.Caching" CoveredStatements="62" TotalStatements="332" CoveragePercent="19">
+        <Type Name="CacheEntry" CoveredStatements="0" TotalStatements="19" CoveragePercent="0">
+            <Method Name=".ctor(System.String,System.Object):System.Void" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
+                <Statement FileIndex="2969" Line="10" Column="9" EndLine="10" EndColumn="52" Covered="False" />
+                <Statement FileIndex="2969" Line="12" Column="13" EndLine="12" EndColumn="23" Covered="False" />
+                <Statement FileIndex="2969" Line="13" Column="13" EndLine="13" EndColumn="27" Covered="False" />
+                <Statement FileIndex="2969" Line="14" Column="9" EndLine="14" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="Equals(Dns.Tech.Caching.CacheEntry):System.Boolean" CoveredStatements="0" TotalStatements="5" CoveragePercent="0">
+                <Statement FileIndex="2969" Line="18" Column="13" EndLine="18" EndColumn="46" Covered="False" />
+                <Statement FileIndex="2969" Line="18" Column="47" EndLine="18" EndColumn="60" Covered="False" />
+                <Statement FileIndex="2969" Line="19" Column="13" EndLine="19" EndColumn="46" Covered="False" />
+                <Statement FileIndex="2969" Line="19" Column="47" EndLine="19" EndColumn="59" Covered="False" />
+                <Statement FileIndex="2969" Line="20" Column="13" EndLine="20" EndColumn="50" Covered="False" />
+            </Method>
+            <Method Name="Equals(System.Object):System.Boolean" CoveredStatements="0" TotalStatements="5" CoveragePercent="0">
+                <Statement FileIndex="2969" Line="25" Column="13" EndLine="25" EndColumn="44" Covered="False" />
+                <Statement FileIndex="2969" Line="25" Column="45" EndLine="25" EndColumn="58" Covered="False" />
+                <Statement FileIndex="2969" Line="26" Column="13" EndLine="26" EndColumn="44" Covered="False" />
+                <Statement FileIndex="2969" Line="26" Column="45" EndLine="26" EndColumn="57" Covered="False" />
+                <Statement FileIndex="2969" Line="27" Column="13" EndLine="27" EndColumn="66" Covered="False" />
+            </Method>
+            <Method Name="get_Key():System.String" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2969" Line="7" Column="29" EndLine="7" EndColumn="33" Covered="False" />
+            </Method>
+            <Method Name="get_Value():System.Object" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2969" Line="8" Column="31" EndLine="8" EndColumn="35" Covered="False" />
+            </Method>
+            <Method Name="GetHashCode():System.Int32" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2969" Line="32" Column="13" EndLine="32" EndColumn="44" Covered="False" />
+            </Method>
+            <Method Name="op_Equality(Dns.Tech.Caching.CacheEntry,Dns.Tech.Caching.CacheEntry):System.Boolean" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2969" Line="37" Column="13" EndLine="37" EndColumn="40" Covered="False" />
+            </Method>
+            <Method Name="op_Inequality(Dns.Tech.Caching.CacheEntry,Dns.Tech.Caching.CacheEntry):System.Boolean" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2969" Line="42" Column="13" EndLine="42" EndColumn="41" Covered="False" />
+            </Method>
+        </Type>
+        <Type Name="CacheGroup" CoveredStatements="11" TotalStatements="21" CoveragePercent="52">
+            <Type Name="&lt;&gt;c" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <Method Name="&lt;get_Data&gt;b__2_0(Dns.Tech.Caching.CacheInfo):System.Boolean" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2970" Line="69" Column="59" EndLine="70" EndColumn="76" Covered="False" />
+                </Method>
+                <Method Name="&lt;get_Data&gt;b__2_1(System.Collections.Generic.KeyValuePair&lt;System.String,Dns.Tech.Caching.CacheInfo&gt;):Dns.Tech.Caching.CacheInfo" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2970" Line="77" Column="45" EndLine="77" EndColumn="55" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass3_0" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;Add&gt;b__0(System.String,Dns.Tech.Caching.CacheInfo):Dns.Tech.Caching.CacheInfo" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2970" Line="100" Column="59" EndLine="100" EndColumn="68" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass4_0" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Method Name="&lt;Add&gt;b__0(System.String,Dns.Tech.Caching.CacheInfo):Dns.Tech.Caching.CacheInfo" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                    <Statement FileIndex="2970" Line="121" Column="59" EndLine="121" EndColumn="68" Covered="True" />
+                </Method>
+            </Type>
+            <Method Name=".cctor():System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Statement FileIndex="2970" Line="63" Column="9" EndLine="63" EndColumn="118" Covered="True" />
+            </Method>
+            <Method Name="Add(System.String,Dns.Tech.Caching.GroupName,System.String):System.Void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+                <Statement FileIndex="2970" Line="111" Column="13" EndLine="119" EndColumn="15" Covered="True" />
+                <Statement FileIndex="2970" Line="121" Column="13" EndLine="121" EndColumn="70" Covered="True" />
+                <Statement FileIndex="2970" Line="122" Column="9" EndLine="122" EndColumn="10" Covered="True" />
+            </Method>
+            <Method Name="Add(System.String,Dns.Tech.Caching.GroupName,System.String,System.TimeSpan):System.Void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+                <Statement FileIndex="2970" Line="90" Column="13" EndLine="98" EndColumn="15" Covered="True" />
+                <Statement FileIndex="2970" Line="100" Column="13" EndLine="100" EndColumn="70" Covered="True" />
+                <Statement FileIndex="2970" Line="101" Column="9" EndLine="101" EndColumn="10" Covered="True" />
+            </Method>
+            <Method Name="Clear(System.String):System.Void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+                <Statement FileIndex="2970" Line="130" Column="13" EndLine="130" EndColumn="60" Covered="True" />
+                <Statement FileIndex="2970" Line="132" Column="17" EndLine="132" EndColumn="37" Covered="True" />
+                <Statement FileIndex="2970" Line="134" Column="9" EndLine="134" EndColumn="10" Covered="True" />
+            </Method>
+            <Method Name="ClearAll():System.Void" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2970" Line="139" Column="9" EndLine="139" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="get_Data():System.Collections.Generic.List&lt;Dns.Tech.Caching.CacheInfo&gt;" CoveredStatements="0" TotalStatements="6" CoveragePercent="0">
+                <Statement FileIndex="2970" Line="69" Column="17" EndLine="70" EndColumn="77" Covered="False" />
+                <Statement FileIndex="2970" Line="72" Column="38" EndLine="72" EndColumn="67" Covered="False" />
+                <Statement FileIndex="2970" Line="72" Column="26" EndLine="72" EndColumn="34" Covered="False" />
+                <Statement FileIndex="2970" Line="74" Column="21" EndLine="74" EndColumn="41" Covered="False" />
+                <Statement FileIndex="2970" Line="72" Column="35" EndLine="72" EndColumn="37" Covered="False" />
+                <Statement FileIndex="2970" Line="77" Column="17" EndLine="77" EndColumn="66" Covered="False" />
+            </Method>
+        </Type>
+        <Type Name="CacheHelper" CoveredStatements="19" TotalStatements="82" CoveragePercent="23">
+            <Type Name="&lt;&gt;c__DisplayClass10_0" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;ClearByGroupName&gt;b__0(Dns.Tech.Caching.CacheInfo):System.Boolean" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2971" Line="146" Column="54" EndLine="146" EndColumn="93" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass11_0" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;ClearByGroupName&gt;b__0(Dns.Tech.Caching.CacheInfo):System.Boolean" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2971" Line="160" Column="54" EndLine="160" EndColumn="124" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass12_0" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;ClearByGroupName&gt;b__0(Dns.Tech.Caching.CacheInfo):System.Boolean" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2971" Line="174" Column="54" EndLine="174" EndColumn="112" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass9_0" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;ClearByGroupName&gt;b__0(Dns.Tech.Caching.CacheInfo):System.Boolean" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2971" Line="133" Column="54" EndLine="133" EndColumn="81" Covered="False" />
+                </Method>
+            </Type>
+            <Method Name=".cctor():System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Statement FileIndex="2971" Line="14" Column="9" EndLine="14" EndColumn="94" Covered="True" />
+            </Method>
+            <Method Name="Clear(System.String):System.Void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
+                <Statement FileIndex="2971" Line="121" Column="13" EndLine="121" EndColumn="45" Covered="True" />
+                <Statement FileIndex="2971" Line="122" Column="13" EndLine="122" EndColumn="33" Covered="True" />
+                <Statement FileIndex="2971" Line="124" Column="13" EndLine="124" EndColumn="35" Covered="True" />
+                <Statement FileIndex="2971" Line="125" Column="9" EndLine="125" EndColumn="10" Covered="True" />
+            </Method>
+            <Method Name="ClearAll():System.Void" CoveredStatements="0" TotalStatements="5" CoveragePercent="0">
+                <Statement FileIndex="2971" Line="186" Column="34" EndLine="186" EndColumn="49" Covered="False" />
+                <Statement FileIndex="2971" Line="186" Column="22" EndLine="186" EndColumn="30" Covered="False" />
+                <Statement FileIndex="2971" Line="188" Column="17" EndLine="188" EndColumn="34" Covered="False" />
+                <Statement FileIndex="2971" Line="186" Column="31" EndLine="186" EndColumn="33" Covered="False" />
+                <Statement FileIndex="2971" Line="190" Column="9" EndLine="190" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="ClearByGroupName(Dns.Tech.Caching.GroupName):System.Void" CoveredStatements="0" TotalStatements="6" CoveragePercent="0">
+                <Statement FileIndex="2971" Line="133" Column="13" EndLine="133" EndColumn="92" Covered="False" />
+                <Statement FileIndex="2971" Line="134" Column="34" EndLine="134" EndColumn="38" Covered="False" />
+                <Statement FileIndex="2971" Line="134" Column="22" EndLine="134" EndColumn="30" Covered="False" />
+                <Statement FileIndex="2971" Line="136" Column="17" EndLine="136" EndColumn="34" Covered="False" />
+                <Statement FileIndex="2971" Line="134" Column="31" EndLine="134" EndColumn="33" Covered="False" />
+                <Statement FileIndex="2971" Line="138" Column="9" EndLine="138" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="ClearByGroupName(Dns.Tech.Caching.GroupName,System.String):System.Void" CoveredStatements="0" TotalStatements="6" CoveragePercent="0">
+                <Statement FileIndex="2971" Line="174" Column="13" EndLine="174" EndColumn="123" Covered="False" />
+                <Statement FileIndex="2971" Line="175" Column="34" EndLine="175" EndColumn="38" Covered="False" />
+                <Statement FileIndex="2971" Line="175" Column="22" EndLine="175" EndColumn="30" Covered="False" />
+                <Statement FileIndex="2971" Line="177" Column="17" EndLine="177" EndColumn="34" Covered="False" />
+                <Statement FileIndex="2971" Line="175" Column="31" EndLine="175" EndColumn="33" Covered="False" />
+                <Statement FileIndex="2971" Line="179" Column="9" EndLine="179" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="ClearByGroupName(System.String):System.Void" CoveredStatements="0" TotalStatements="6" CoveragePercent="0">
+                <Statement FileIndex="2971" Line="146" Column="13" EndLine="146" EndColumn="104" Covered="False" />
+                <Statement FileIndex="2971" Line="147" Column="34" EndLine="147" EndColumn="38" Covered="False" />
+                <Statement FileIndex="2971" Line="147" Column="22" EndLine="147" EndColumn="30" Covered="False" />
+                <Statement FileIndex="2971" Line="149" Column="17" EndLine="149" EndColumn="34" Covered="False" />
+                <Statement FileIndex="2971" Line="147" Column="31" EndLine="147" EndColumn="33" Covered="False" />
+                <Statement FileIndex="2971" Line="151" Column="9" EndLine="151" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="ClearByGroupName(System.String,System.String):System.Void" CoveredStatements="0" TotalStatements="6" CoveragePercent="0">
+                <Statement FileIndex="2971" Line="160" Column="13" EndLine="160" EndColumn="135" Covered="False" />
+                <Statement FileIndex="2971" Line="161" Column="34" EndLine="161" EndColumn="38" Covered="False" />
+                <Statement FileIndex="2971" Line="161" Column="22" EndLine="161" EndColumn="30" Covered="False" />
+                <Statement FileIndex="2971" Line="163" Column="17" EndLine="163" EndColumn="34" Covered="False" />
+                <Statement FileIndex="2971" Line="161" Column="31" EndLine="161" EndColumn="33" Covered="False" />
+                <Statement FileIndex="2971" Line="165" Column="9" EndLine="165" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="ClearByTemplate(System.Func&lt;System.String,System.Boolean&gt;):System.Void" CoveredStatements="0" TotalStatements="8" CoveragePercent="0">
+                <Statement FileIndex="2971" Line="199" Column="13" EndLine="199" EndColumn="45" Covered="False" />
+                <Statement FileIndex="2971" Line="201" Column="33" EndLine="201" EndColumn="45" Covered="False" />
+                <Statement FileIndex="2971" Line="201" Column="22" EndLine="201" EndColumn="29" Covered="False" />
+                <Statement FileIndex="2971" Line="203" Column="17" EndLine="203" EndColumn="35" Covered="False" />
+                <Statement FileIndex="2971" Line="205" Column="21" EndLine="205" EndColumn="41" Covered="False" />
+                <Statement FileIndex="2971" Line="206" Column="21" EndLine="206" EndColumn="43" Covered="False" />
+                <Statement FileIndex="2971" Line="201" Column="30" EndLine="201" EndColumn="32" Covered="False" />
+                <Statement FileIndex="2971" Line="209" Column="9" EndLine="209" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="GetCacheStorage():Dns.Tech.Caching.ICache" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Statement FileIndex="2971" Line="213" Column="13" EndLine="213" EndColumn="53" Covered="True" />
+            </Method>
+            <Method Name="GetKey(Dns.Tech.Caching.CacheHelper.KeysPrefixes,System.Object):System.String" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Statement FileIndex="2971" Line="29" Column="13" EndLine="29" EndColumn="61" Covered="True" />
+            </Method>
+            <Method Name="StoreItemAbsolute&lt;T&gt;(System.String,T,System.TimeSpan):System.Void" CoveredStatements="0" TotalStatements="5" CoveragePercent="0">
+                <Statement FileIndex="2971" Line="107" Column="13" EndLine="107" EndColumn="59" Covered="False" />
+                <Statement FileIndex="2971" Line="108" Column="17" EndLine="108" EndColumn="24" Covered="False" />
+                <Statement FileIndex="2971" Line="110" Column="13" EndLine="110" EndColumn="45" Covered="False" />
+                <Statement FileIndex="2971" Line="111" Column="13" EndLine="111" EndColumn="76" Covered="False" />
+                <Statement FileIndex="2971" Line="112" Column="9" EndLine="112" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="StoreItemAbsolute&lt;T&gt;(System.String,T,System.TimeSpan,Dns.Tech.Caching.GroupName,System.String):System.Void" CoveredStatements="5" TotalStatements="6" CoveragePercent="83">
+                <Statement FileIndex="2971" Line="90" Column="13" EndLine="90" EndColumn="59" Covered="True" />
+                <Statement FileIndex="2971" Line="91" Column="17" EndLine="91" EndColumn="24" Covered="False" />
+                <Statement FileIndex="2971" Line="93" Column="13" EndLine="93" EndColumn="45" Covered="True" />
+                <Statement FileIndex="2971" Line="95" Column="13" EndLine="95" EndColumn="76" Covered="True" />
+                <Statement FileIndex="2971" Line="96" Column="13" EndLine="96" EndColumn="67" Covered="True" />
+                <Statement FileIndex="2971" Line="97" Column="9" EndLine="97" EndColumn="10" Covered="True" />
+            </Method>
+            <Method Name="StoreItemSliding&lt;T&gt;(System.String,T):System.Void" CoveredStatements="0" TotalStatements="5" CoveragePercent="0">
+                <Statement FileIndex="2971" Line="52" Column="13" EndLine="52" EndColumn="59" Covered="False" />
+                <Statement FileIndex="2971" Line="54" Column="17" EndLine="54" EndColumn="24" Covered="False" />
+                <Statement FileIndex="2971" Line="57" Column="13" EndLine="57" EndColumn="45" Covered="False" />
+                <Statement FileIndex="2971" Line="59" Column="13" EndLine="59" EndColumn="89" Covered="False" />
+                <Statement FileIndex="2971" Line="60" Column="9" EndLine="60" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="StoreItemSliding&lt;T&gt;(System.String,T,Dns.Tech.Caching.GroupName,System.String):System.Void" CoveredStatements="5" TotalStatements="6" CoveragePercent="83">
+                <Statement FileIndex="2971" Line="71" Column="13" EndLine="71" EndColumn="59" Covered="True" />
+                <Statement FileIndex="2971" Line="72" Column="17" EndLine="72" EndColumn="24" Covered="False" />
+                <Statement FileIndex="2971" Line="74" Column="13" EndLine="74" EndColumn="45" Covered="True" />
+                <Statement FileIndex="2971" Line="76" Column="13" EndLine="76" EndColumn="89" Covered="True" />
+                <Statement FileIndex="2971" Line="77" Column="13" EndLine="77" EndColumn="55" Covered="True" />
+                <Statement FileIndex="2971" Line="78" Column="9" EndLine="78" EndColumn="10" Covered="True" />
+            </Method>
+            <Method Name="StoreNullableItemAbsolute&lt;T&gt;(System.String,T,System.TimeSpan):System.Void" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <Statement FileIndex="2971" Line="261" Column="13" EndLine="261" EndColumn="87" Covered="False" />
+                <Statement FileIndex="2971" Line="262" Column="9" EndLine="262" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="StoreNullableItemAbsolute&lt;T&gt;(System.String,T,System.TimeSpan,Dns.Tech.Caching.GroupName,System.String):System.Void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0">
+                <Statement FileIndex="2971" Line="249" Column="13" EndLine="249" EndColumn="87" Covered="False" />
+                <Statement FileIndex="2971" Line="250" Column="13" EndLine="250" EndColumn="67" Covered="False" />
+                <Statement FileIndex="2971" Line="251" Column="9" EndLine="251" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="StoreNullableItemSliding&lt;T&gt;(System.String,T):System.Void" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <Statement FileIndex="2971" Line="223" Column="13" EndLine="223" EndColumn="100" Covered="False" />
+                <Statement FileIndex="2971" Line="224" Column="9" EndLine="224" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="StoreNullableItemSliding&lt;T&gt;(System.String,T,Dns.Tech.Caching.GroupName,System.String):System.Void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0">
+                <Statement FileIndex="2971" Line="235" Column="13" EndLine="235" EndColumn="100" Covered="False" />
+                <Statement FileIndex="2971" Line="236" Column="13" EndLine="236" EndColumn="55" Covered="False" />
+                <Statement FileIndex="2971" Line="237" Column="9" EndLine="237" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="TryGetItem&lt;T&gt;(System.String,T):System.Boolean" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+                <Statement FileIndex="2971" Line="41" Column="13" EndLine="41" EndColumn="45" Covered="True" />
+                <Statement FileIndex="2971" Line="42" Column="13" EndLine="42" EndColumn="56" Covered="True" />
+            </Method>
+        </Type>
+        <Type Name="CacheManager" CoveredStatements="0" TotalStatements="64" CoveragePercent="0">
+            <Method Name=".cctor():System.Void" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2972" Line="12" Column="9" EndLine="12" EndColumn="87" Covered="False" />
+            </Method>
+            <Method Name="GetCachedNullableObjectAbsolute&lt;T&gt;(System.String,System.TimeSpan,Dns.Tech.Caching.GroupName,System.String,System.Func&lt;T&gt;):T" CoveredStatements="0" TotalStatements="9" CoveragePercent="0">
+                <Statement FileIndex="2972" Line="166" Column="13" EndLine="166" EndColumn="62" Covered="False" />
+                <Statement FileIndex="2972" Line="167" Column="17" EndLine="167" EndColumn="28" Covered="False" />
+                <Statement FileIndex="2972" Line="169" Column="13" EndLine="169" EndColumn="69" Covered="False" />
+                <Statement FileIndex="2972" Line="171" Column="17" EndLine="171" EndColumn="64" Covered="False" />
+                <Statement FileIndex="2972" Line="173" Column="21" EndLine="173" EndColumn="44" Covered="False" />
+                <Statement FileIndex="2972" Line="174" Column="21" EndLine="174" EndColumn="108" Covered="False" />
+                <Statement FileIndex="2972" Line="177" Column="17" EndLine="177" EndColumn="71" Covered="False" />
+                <Statement FileIndex="2972" Line="178" Column="13" EndLine="178" EndColumn="14" Covered="False" />
+                <Statement FileIndex="2972" Line="180" Column="13" EndLine="180" EndColumn="24" Covered="False" />
+            </Method>
+            <Method Name="GetCachedNullableObjectAbsolute&lt;T&gt;(System.String,System.TimeSpan,System.Func&lt;T&gt;):T" CoveredStatements="0" TotalStatements="9" CoveragePercent="0">
+                <Statement FileIndex="2972" Line="113" Column="13" EndLine="113" EndColumn="62" Covered="False" />
+                <Statement FileIndex="2972" Line="114" Column="17" EndLine="114" EndColumn="28" Covered="False" />
+                <Statement FileIndex="2972" Line="116" Column="13" EndLine="116" EndColumn="69" Covered="False" />
+                <Statement FileIndex="2972" Line="118" Column="17" EndLine="118" EndColumn="64" Covered="False" />
+                <Statement FileIndex="2972" Line="120" Column="21" EndLine="120" EndColumn="44" Covered="False" />
+                <Statement FileIndex="2972" Line="122" Column="21" EndLine="122" EndColumn="86" Covered="False" />
+                <Statement FileIndex="2972" Line="125" Column="17" EndLine="125" EndColumn="71" Covered="False" />
+                <Statement FileIndex="2972" Line="126" Column="13" EndLine="126" EndColumn="14" Covered="False" />
+                <Statement FileIndex="2972" Line="128" Column="13" EndLine="128" EndColumn="24" Covered="False" />
+            </Method>
+            <Method Name="GetCachedNullableObjectSliding&lt;T&gt;(System.String,Dns.Tech.Caching.GroupName,System.String,System.Func&lt;T&gt;):T" CoveredStatements="0" TotalStatements="9" CoveragePercent="0">
+                <Statement FileIndex="2972" Line="66" Column="13" EndLine="66" EndColumn="62" Covered="False" />
+                <Statement FileIndex="2972" Line="67" Column="17" EndLine="67" EndColumn="28" Covered="False" />
+                <Statement FileIndex="2972" Line="69" Column="13" EndLine="69" EndColumn="69" Covered="False" />
+                <Statement FileIndex="2972" Line="71" Column="17" EndLine="71" EndColumn="64" Covered="False" />
+                <Statement FileIndex="2972" Line="73" Column="21" EndLine="73" EndColumn="44" Covered="False" />
+                <Statement FileIndex="2972" Line="75" Column="21" EndLine="75" EndColumn="95" Covered="False" />
+                <Statement FileIndex="2972" Line="78" Column="17" EndLine="78" EndColumn="71" Covered="False" />
+                <Statement FileIndex="2972" Line="79" Column="13" EndLine="79" EndColumn="14" Covered="False" />
+                <Statement FileIndex="2972" Line="81" Column="13" EndLine="81" EndColumn="24" Covered="False" />
+            </Method>
+            <Method Name="GetCachedObjectAbsolute&lt;T&gt;(System.String,System.TimeSpan,Dns.Tech.Caching.GroupName,System.String,System.Func&lt;T&gt;):T" CoveredStatements="0" TotalStatements="9" CoveragePercent="0">
+                <Statement FileIndex="2972" Line="143" Column="13" EndLine="143" EndColumn="62" Covered="False" />
+                <Statement FileIndex="2972" Line="144" Column="17" EndLine="144" EndColumn="28" Covered="False" />
+                <Statement FileIndex="2972" Line="146" Column="13" EndLine="146" EndColumn="69" Covered="False" />
+                <Statement FileIndex="2972" Line="148" Column="17" EndLine="148" EndColumn="64" Covered="False" />
+                <Statement FileIndex="2972" Line="150" Column="21" EndLine="150" EndColumn="44" Covered="False" />
+                <Statement FileIndex="2972" Line="151" Column="21" EndLine="151" EndColumn="100" Covered="False" />
+                <Statement FileIndex="2972" Line="154" Column="17" EndLine="154" EndColumn="71" Covered="False" />
+                <Statement FileIndex="2972" Line="155" Column="13" EndLine="155" EndColumn="14" Covered="False" />
+                <Statement FileIndex="2972" Line="157" Column="13" EndLine="157" EndColumn="24" Covered="False" />
+            </Method>
+            <Method Name="GetCachedObjectAbsolute&lt;T&gt;(System.String,System.TimeSpan,System.Func&lt;T&gt;):T" CoveredStatements="0" TotalStatements="9" CoveragePercent="0">
+                <Statement FileIndex="2972" Line="89" Column="13" EndLine="89" EndColumn="62" Covered="False" />
+                <Statement FileIndex="2972" Line="90" Column="17" EndLine="90" EndColumn="28" Covered="False" />
+                <Statement FileIndex="2972" Line="92" Column="13" EndLine="92" EndColumn="69" Covered="False" />
+                <Statement FileIndex="2972" Line="94" Column="17" EndLine="94" EndColumn="64" Covered="False" />
+                <Statement FileIndex="2972" Line="96" Column="21" EndLine="96" EndColumn="44" Covered="False" />
+                <Statement FileIndex="2972" Line="98" Column="21" EndLine="98" EndColumn="78" Covered="False" />
+                <Statement FileIndex="2972" Line="101" Column="17" EndLine="101" EndColumn="71" Covered="False" />
+                <Statement FileIndex="2972" Line="102" Column="13" EndLine="102" EndColumn="14" Covered="False" />
+                <Statement FileIndex="2972" Line="104" Column="13" EndLine="104" EndColumn="24" Covered="False" />
+            </Method>
+            <Method Name="GetCachedObjectSliding&lt;T&gt;(System.String,Dns.Tech.Caching.GroupName,System.String,System.Func&lt;T&gt;):T" CoveredStatements="0" TotalStatements="9" CoveragePercent="0">
+                <Statement FileIndex="2972" Line="42" Column="13" EndLine="42" EndColumn="62" Covered="False" />
+                <Statement FileIndex="2972" Line="43" Column="17" EndLine="43" EndColumn="28" Covered="False" />
+                <Statement FileIndex="2972" Line="45" Column="13" EndLine="45" EndColumn="69" Covered="False" />
+                <Statement FileIndex="2972" Line="47" Column="17" EndLine="47" EndColumn="64" Covered="False" />
+                <Statement FileIndex="2972" Line="49" Column="21" EndLine="49" EndColumn="44" Covered="False" />
+                <Statement FileIndex="2972" Line="51" Column="21" EndLine="51" EndColumn="87" Covered="False" />
+                <Statement FileIndex="2972" Line="54" Column="17" EndLine="54" EndColumn="71" Covered="False" />
+                <Statement FileIndex="2972" Line="55" Column="13" EndLine="55" EndColumn="14" Covered="False" />
+                <Statement FileIndex="2972" Line="57" Column="13" EndLine="57" EndColumn="24" Covered="False" />
+            </Method>
+            <Method Name="GetCachedObjectSliding&lt;T&gt;(System.String,System.Func&lt;T&gt;):T" CoveredStatements="0" TotalStatements="9" CoveragePercent="0">
+                <Statement FileIndex="2972" Line="19" Column="13" EndLine="19" EndColumn="62" Covered="False" />
+                <Statement FileIndex="2972" Line="20" Column="17" EndLine="20" EndColumn="28" Covered="False" />
+                <Statement FileIndex="2972" Line="22" Column="13" EndLine="22" EndColumn="69" Covered="False" />
+                <Statement FileIndex="2972" Line="24" Column="17" EndLine="24" EndColumn="64" Covered="False" />
+                <Statement FileIndex="2972" Line="26" Column="21" EndLine="26" EndColumn="44" Covered="False" />
+                <Statement FileIndex="2972" Line="28" Column="21" EndLine="28" EndColumn="65" Covered="False" />
+                <Statement FileIndex="2972" Line="31" Column="17" EndLine="31" EndColumn="71" Covered="False" />
+                <Statement FileIndex="2972" Line="32" Column="13" EndLine="32" EndColumn="14" Covered="False" />
+                <Statement FileIndex="2972" Line="34" Column="13" EndLine="34" EndColumn="24" Covered="False" />
+            </Method>
+        </Type>
+        <Type Name="CacheStorageException" CoveredStatements="0" TotalStatements="12" CoveragePercent="0">
+            <Method Name=".ctor():System.Void" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <Statement FileIndex="2973" Line="19" Column="9" EndLine="19" EndColumn="39" Covered="False" />
+                <Statement FileIndex="2973" Line="19" Column="42" EndLine="19" EndColumn="43" Covered="False" />
+            </Method>
+            <Method Name=".ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <Statement FileIndex="2973" Line="24" Column="68" EndLine="24" EndColumn="87" Covered="False" />
+                <Statement FileIndex="2973" Line="25" Column="11" EndLine="25" EndColumn="12" Covered="False" />
+            </Method>
+            <Method Name=".ctor(System.String):System.Void" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <Statement FileIndex="2973" Line="20" Column="56" EndLine="20" EndColumn="69" Covered="False" />
+                <Statement FileIndex="2973" Line="20" Column="72" EndLine="20" EndColumn="73" Covered="False" />
+            </Method>
+            <Method Name=".ctor(System.String,System.Exception):System.Void" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <Statement FileIndex="2973" Line="21" Column="73" EndLine="21" EndColumn="93" Covered="False" />
+                <Statement FileIndex="2973" Line="21" Column="96" EndLine="21" EndColumn="97" Covered="False" />
+            </Method>
+            <Method Name="get_IsLogged():System.Boolean" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2973" Line="12" Column="32" EndLine="12" EndColumn="36" Covered="False" />
+            </Method>
+            <Method Name="get_Ticket():System.Decimal" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2973" Line="17" Column="33" EndLine="17" EndColumn="37" Covered="False" />
+            </Method>
+            <Method Name="set_IsLogged(System.Boolean):System.Void" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2973" Line="12" Column="37" EndLine="12" EndColumn="41" Covered="False" />
+            </Method>
+            <Method Name="set_Ticket(System.Decimal):System.Void" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2973" Line="17" Column="38" EndLine="17" EndColumn="42" Covered="False" />
+            </Method>
+        </Type>
+        <Type Name="DbCache" CoveredStatements="0" TotalStatements="36" CoveragePercent="0">
+            <Type Name="&lt;&gt;c__DisplayClass0_0&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;GetAbsoluteCachedScalarValue&gt;b__0():T" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2974" Line="34" Column="19" EndLine="34" EndColumn="82" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass1_0&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;GetAbsoluteCachedScalarValue&gt;b__0():T" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2974" Line="59" Column="19" EndLine="59" EndColumn="82" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass10_0&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;GetAbsoluteCachedDictionaryAsync&gt;b__0():System.Threading.Tasks.Task&lt;System.Collections.Generic.Dictionary&lt;Dns.SDK.Types.Identities.Identity,T&gt;&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2974" Line="326" Column="18" EndLine="326" EndColumn="99" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass11_0&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;GetAbsoluteCachedNullableDictionary&gt;b__0():System.Collections.Generic.Dictionary&lt;Dns.SDK.Types.Identities.Identity,T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2974" Line="369" Column="18" EndLine="369" EndColumn="87" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass12_0&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;GetAbsoluteCachedDictionary&gt;b__0():System.Collections.Generic.Dictionary&lt;Dns.SDK.Types.Identities.Identity,T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2974" Line="393" Column="17" EndLine="393" EndColumn="86" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass13_0&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;GetSlidingCachedItem&gt;b__0():T" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2974" Line="420" Column="19" EndLine="420" EndColumn="82" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass14_0&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;GetSlidingCachedItemAsync&gt;b__0():System.Threading.Tasks.Task&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2974" Line="447" Column="19" EndLine="447" EndColumn="94" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass15_0&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;GetAbsoluteCachedItem&gt;b__0():T" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2974" Line="471" Column="21" EndLine="471" EndColumn="84" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass16_0&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;GetAbsoluteCachedItem&gt;b__0():T" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2974" Line="499" Column="21" EndLine="499" EndColumn="84" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass17_0&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;GetAbsoluteCachedItemAsync&gt;b__0():System.Threading.Tasks.Task&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2974" Line="529" Column="21" EndLine="529" EndColumn="108" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass2_0&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;GetSlidingCachedList&gt;b__0():System.Collections.Generic.List&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2974" Line="85" Column="19" EndLine="85" EndColumn="82" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass3_0&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;GetSlidingCachedListAsync&gt;b__0():System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;T&gt;&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2974" Line="113" Column="21" EndLine="113" EndColumn="108" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass4_0&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;GetSlidingCachedNullableList&gt;b__0():System.Collections.Generic.List&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2974" Line="140" Column="19" EndLine="140" EndColumn="82" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass5_0&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;GetAbsoluteCachedList&gt;b__0():System.Collections.Generic.List&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2974" Line="168" Column="21" EndLine="168" EndColumn="84" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass6_0&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;GetAbsoluteCachedListAsync&gt;b__0():System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;T&gt;&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2974" Line="197" Column="21" EndLine="197" EndColumn="108" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass7_0&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;GetAbsoluteCachedNullableList&gt;b__0():System.Collections.Generic.List&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2974" Line="226" Column="21" EndLine="226" EndColumn="84" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass8_0&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;GetAbsoluteCachedNullableListAsync&gt;b__0():System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;T&gt;&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2974" Line="256" Column="21" EndLine="256" EndColumn="108" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass9_0&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;GetAbsoluteCachedDictionary&gt;b__0():System.Collections.Generic.Dictionary&lt;Dns.SDK.Types.Identities.Identity,T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2974" Line="297" Column="18" EndLine="297" EndColumn="87" Covered="False" />
+                </Method>
+            </Type>
+            <Method Name="GetAbsoluteCachedDictionary&lt;T&gt;(System.String,System.Func&lt;System.Data.IDataReader,System.Collections.Generic.KeyValuePair&lt;Dns.SDK.Types.Identities.Identity,T&gt;&gt;,System.String,System.TimeSpan,Dns.SDK.SqlDatabase.DbParam[]):System.Collections.Generic.Dictionary&lt;Dns.SDK.Types.Identities.Identity,T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2974" Line="390" Column="13" EndLine="394" EndColumn="16" Covered="False" />
+            </Method>
+            <Method Name="GetAbsoluteCachedDictionary&lt;T&gt;(System.String,System.Func&lt;System.Data.IDataReader,System.Collections.Generic.KeyValuePair&lt;Dns.SDK.Types.Identities.Identity,T&gt;&gt;,System.String,System.TimeSpan,Dns.Tech.Caching.GroupName,System.String,Dns.SDK.SqlDatabase.DbParam[]):System.Collections.Generic.Dictionary&lt;Dns.SDK.Types.Identities.Identity,T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2974" Line="294" Column="13" EndLine="298" EndColumn="17" Covered="False" />
+            </Method>
+            <Method Name="GetAbsoluteCachedDictionaryAsync&lt;T&gt;(System.String,System.Func&lt;System.Data.IDataReader,System.Collections.Generic.KeyValuePair&lt;Dns.SDK.Types.Identities.Identity,T&gt;&gt;,System.String,System.TimeSpan,Dns.Tech.Caching.GroupName,System.String,System.Threading.CancellationToken,Dns.SDK.SqlDatabase.DbParam[]):System.Threading.Tasks.Task&lt;System.Collections.Generic.Dictionary&lt;Dns.SDK.Types.Identities.Identity,T&gt;&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2974" Line="323" Column="13" EndLine="327" EndColumn="16" Covered="False" />
+            </Method>
+            <Method Name="GetAbsoluteCachedItem&lt;T&gt;(System.String,System.Func&lt;System.Data.IDataReader,T&gt;,System.String,Dns.Tech.Caching.GroupName,System.String,System.TimeSpan,Dns.SDK.SqlDatabase.DbParam[]):T" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2974" Line="496" Column="13" EndLine="500" EndColumn="20" Covered="False" />
+            </Method>
+            <Method Name="GetAbsoluteCachedItem&lt;T&gt;(System.String,System.Func&lt;System.Data.IDataReader,T&gt;,System.String,System.TimeSpan,Dns.SDK.SqlDatabase.DbParam[]):T" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2974" Line="468" Column="13" EndLine="472" EndColumn="20" Covered="False" />
+            </Method>
+            <Method Name="GetAbsoluteCachedItemAsync&lt;T&gt;(System.String,System.Func&lt;System.Data.IDataReader,T&gt;,System.String,Dns.Tech.Caching.GroupName,System.String,System.TimeSpan,System.Threading.CancellationToken,Dns.SDK.SqlDatabase.DbParam[]):System.Threading.Tasks.Task&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2974" Line="526" Column="13" EndLine="530" EndColumn="20" Covered="False" />
+            </Method>
+            <Method Name="GetAbsoluteCachedList&lt;T&gt;(System.String,System.Func&lt;System.Data.IDataReader,T&gt;,System.String,Dns.Tech.Caching.GroupName,System.String,System.TimeSpan,Dns.SDK.SqlDatabase.DbParam[]):System.Collections.Generic.List&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2974" Line="165" Column="13" EndLine="169" EndColumn="20" Covered="False" />
+            </Method>
+            <Method Name="GetAbsoluteCachedListAsync&lt;T&gt;(System.String,System.Func&lt;System.Data.IDataReader,T&gt;,System.String,Dns.Tech.Caching.GroupName,System.String,System.TimeSpan,System.Threading.CancellationToken,Dns.SDK.SqlDatabase.DbParam[]):System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;T&gt;&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2974" Line="194" Column="13" EndLine="198" EndColumn="20" Covered="False" />
+            </Method>
+            <Method Name="GetAbsoluteCachedNullableDictionary&lt;T&gt;(System.String,System.Func&lt;System.Data.IDataReader,System.Collections.Generic.KeyValuePair&lt;Dns.SDK.Types.Identities.Identity,T&gt;&gt;,System.String,System.TimeSpan,Dns.Tech.Caching.GroupName,System.String,Dns.SDK.SqlDatabase.DbParam[]):System.Collections.Generic.Dictionary&lt;Dns.SDK.Types.Identities.Identity,T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2974" Line="366" Column="13" EndLine="370" EndColumn="17" Covered="False" />
+            </Method>
+            <Method Name="GetAbsoluteCachedNullableList&lt;T&gt;(System.String,System.Func&lt;System.Data.IDataReader,T&gt;,System.String,Dns.Tech.Caching.GroupName,System.String,System.TimeSpan,Dns.SDK.SqlDatabase.DbParam[]):System.Collections.Generic.List&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2974" Line="223" Column="13" EndLine="227" EndColumn="20" Covered="False" />
+            </Method>
+            <Method Name="GetAbsoluteCachedNullableListAsync&lt;T&gt;(System.String,System.Func&lt;System.Data.IDataReader,T&gt;,System.String,Dns.Tech.Caching.GroupName,System.String,System.TimeSpan,System.Threading.CancellationToken,Dns.SDK.SqlDatabase.DbParam[]):System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;T&gt;&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2974" Line="253" Column="13" EndLine="257" EndColumn="20" Covered="False" />
+            </Method>
+            <Method Name="GetAbsoluteCachedScalarValue&lt;T&gt;(System.String,System.String,System.TimeSpan,Dns.SDK.SqlDatabase.DbParam[]):T" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2974" Line="31" Column="13" EndLine="35" EndColumn="18" Covered="False" />
+            </Method>
+            <Method Name="GetAbsoluteCachedScalarValue&lt;T&gt;(System.String,System.String,System.TimeSpan,Dns.Tech.Caching.GroupName,System.String,Dns.SDK.SqlDatabase.DbParam[]):T" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2974" Line="56" Column="13" EndLine="60" EndColumn="18" Covered="False" />
+            </Method>
+            <Method Name="GetSlidingCachedItem&lt;T&gt;(System.String,System.Func&lt;System.Data.IDataReader,T&gt;,System.String,Dns.Tech.Caching.GroupName,System.String,Dns.SDK.SqlDatabase.DbParam[]):T" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2974" Line="417" Column="13" EndLine="421" EndColumn="18" Covered="False" />
+            </Method>
+            <Method Name="GetSlidingCachedItemAsync&lt;T&gt;(System.String,System.Func&lt;System.Data.IDataReader,T&gt;,System.String,Dns.Tech.Caching.GroupName,System.String,System.Threading.CancellationToken,Dns.SDK.SqlDatabase.DbParam[]):System.Threading.Tasks.Task&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2974" Line="444" Column="13" EndLine="448" EndColumn="18" Covered="False" />
+            </Method>
+            <Method Name="GetSlidingCachedList&lt;T&gt;(System.String,System.Func&lt;System.Data.IDataReader,T&gt;,System.String,Dns.Tech.Caching.GroupName,System.String,Dns.SDK.SqlDatabase.DbParam[]):System.Collections.Generic.List&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2974" Line="82" Column="13" EndLine="86" EndColumn="18" Covered="False" />
+            </Method>
+            <Method Name="GetSlidingCachedListAsync&lt;T&gt;(System.String,System.Func&lt;System.Data.IDataReader,T&gt;,System.String,Dns.Tech.Caching.GroupName,System.String,System.Threading.CancellationToken,Dns.SDK.SqlDatabase.DbParam[]):System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;T&gt;&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2974" Line="110" Column="13" EndLine="114" EndColumn="20" Covered="False" />
+            </Method>
+            <Method Name="GetSlidingCachedNullableList&lt;T&gt;(System.String,System.Func&lt;System.Data.IDataReader,T&gt;,System.String,Dns.Tech.Caching.GroupName,System.String,Dns.SDK.SqlDatabase.DbParam[]):System.Collections.Generic.List&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2974" Line="137" Column="13" EndLine="141" EndColumn="18" Covered="False" />
+            </Method>
+        </Type>
+        <Type Name="GroupName" CoveredStatements="15" TotalStatements="16" CoveragePercent="94">
+            <Method Name=".cctor():System.Void" CoveredStatements="12" TotalStatements="12" CoveragePercent="100">
+                <Statement FileIndex="2970" Line="16" Column="9" EndLine="16" EndColumn="75" Covered="True" />
+                <Statement FileIndex="2970" Line="17" Column="9" EndLine="17" EndColumn="76" Covered="True" />
+                <Statement FileIndex="2970" Line="18" Column="9" EndLine="18" EndColumn="73" Covered="True" />
+                <Statement FileIndex="2970" Line="19" Column="9" EndLine="19" EndColumn="77" Covered="True" />
+                <Statement FileIndex="2970" Line="20" Column="9" EndLine="20" EndColumn="80" Covered="True" />
+                <Statement FileIndex="2970" Line="21" Column="9" EndLine="21" EndColumn="77" Covered="True" />
+                <Statement FileIndex="2970" Line="22" Column="9" EndLine="22" EndColumn="97" Covered="True" />
+                <Statement FileIndex="2970" Line="23" Column="9" EndLine="23" EndColumn="96" Covered="True" />
+                <Statement FileIndex="2970" Line="24" Column="9" EndLine="24" EndColumn="107" Covered="True" />
+                <Statement FileIndex="2970" Line="25" Column="9" EndLine="25" EndColumn="80" Covered="True" />
+                <Statement FileIndex="2970" Line="26" Column="9" EndLine="26" EndColumn="91" Covered="True" />
+                <Statement FileIndex="2970" Line="27" Column="9" EndLine="27" EndColumn="69" Covered="True" />
+            </Method>
+            <Method Name=".ctor(System.String):System.Void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+                <Statement FileIndex="2970" Line="29" Column="9" EndLine="29" EndColumn="39" Covered="True" />
+                <Statement FileIndex="2970" Line="31" Column="13" EndLine="31" EndColumn="26" Covered="True" />
+                <Statement FileIndex="2970" Line="32" Column="9" EndLine="32" EndColumn="10" Covered="True" />
+            </Method>
+            <Method Name="ToString():System.String" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2970" Line="36" Column="13" EndLine="36" EndColumn="26" Covered="False" />
+            </Method>
+        </Type>
+        <Type Name="InMemoryCache" CoveredStatements="13" TotalStatements="15" CoveragePercent="87">
+            <Type Name="&lt;&gt;c__DisplayClass6_0" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Method Name="&lt;StoreItemWithSlidingExpiration&gt;b__0(System.Object,System.Object,Microsoft.Extensions.Caching.Memory.EvictionReason,System.Object):System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                    <Statement FileIndex="2975" Line="39" Column="74" EndLine="39" EndColumn="101" Covered="True" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass7_0" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;StoreItemWithAbsoluteExpiration&gt;b__0(System.Object,System.Object,Microsoft.Extensions.Caching.Memory.EvictionReason,System.Object):System.Void" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2975" Line="55" Column="74" EndLine="55" EndColumn="101" Covered="False" />
+                </Method>
+            </Type>
+            <Method Name=".ctor():System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Statement FileIndex="2975" Line="14" Column="9" EndLine="14" EndColumn="114" Covered="True" />
+            </Method>
+            <Method Name="get_Keys():System.Collections.Generic.IReadOnlyCollection&lt;System.String&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2975" Line="19" Column="52" EndLine="19" EndColumn="81" Covered="False" />
+            </Method>
+            <Method Name="get_MemoryCache():Microsoft.Extensions.Caching.Memory.IMemoryCache" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Statement FileIndex="2975" Line="16" Column="45" EndLine="16" EndColumn="83" Covered="True" />
+            </Method>
+            <Method Name="Remove(System.String):System.Void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+                <Statement FileIndex="2975" Line="64" Column="13" EndLine="64" EndColumn="41" Covered="True" />
+                <Statement FileIndex="2975" Line="65" Column="13" EndLine="65" EndColumn="37" Covered="True" />
+                <Statement FileIndex="2975" Line="66" Column="9" EndLine="66" EndColumn="10" Covered="True" />
+            </Method>
+            <Method Name="StoreItemWithAbsoluteExpiration(System.String,System.Object,System.TimeSpan):System.Void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+                <Statement FileIndex="2975" Line="47" Column="13" EndLine="47" EndColumn="45" Covered="True" />
+                <Statement FileIndex="2975" Line="48" Column="13" EndLine="58" EndColumn="16" Covered="True" />
+                <Statement FileIndex="2975" Line="59" Column="9" EndLine="59" EndColumn="10" Covered="True" />
+            </Method>
+            <Method Name="StoreItemWithSlidingExpiration(System.String,System.Object,System.TimeSpan):System.Void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+                <Statement FileIndex="2975" Line="30" Column="13" EndLine="30" EndColumn="45" Covered="True" />
+                <Statement FileIndex="2975" Line="31" Column="13" EndLine="42" EndColumn="16" Covered="True" />
+                <Statement FileIndex="2975" Line="43" Column="9" EndLine="43" EndColumn="10" Covered="True" />
+            </Method>
+            <Method Name="TryGetValue&lt;T&gt;(System.String,T):System.Boolean" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Statement FileIndex="2975" Line="24" Column="13" EndLine="24" EndColumn="60" Covered="True" />
+            </Method>
+        </Type>
+        <Type Name="RedisCacheStorage" CoveredStatements="4" TotalStatements="67" CoveragePercent="6">
+            <Type Name="&lt;TryGetAsync&gt;d__13&lt;T&gt;" CoveredStatements="0" TotalStatements="11" CoveragePercent="0">
+                <Method Name="MoveNext():System.Void" CoveredStatements="0" TotalStatements="11" CoveragePercent="0">
+                    <Statement FileIndex="2976" Line="150" Column="13" EndLine="150" EndColumn="55" Covered="False" />
+                    <Statement FileIndex="2976" Line="151" Column="13" EndLine="151" EndColumn="65" Covered="False" />
+                    <Statement FileIndex="2976" Line="153" Column="13" EndLine="153" EndColumn="36" Covered="False" />
+                    <Statement FileIndex="2976" Line="154" Column="17" EndLine="154" EndColumn="63" Covered="False" />
+                    <Statement FileIndex="2976" Line="159" Column="17" EndLine="159" EndColumn="53" Covered="False" />
+                    <Statement FileIndex="2976" Line="160" Column="13" EndLine="160" EndColumn="14" Covered="False" />
+                    <Statement FileIndex="2976" Line="161" Column="13" EndLine="161" EndColumn="32" Covered="False" />
+                    <Statement FileIndex="2976" Line="163" Column="17" EndLine="163" EndColumn="120" Covered="False" />
+                    <Statement FileIndex="2976" Line="164" Column="17" EndLine="164" EndColumn="63" Covered="False" />
+                    <Statement FileIndex="2976" Line="167" Column="13" EndLine="167" EndColumn="44" Covered="False" />
+                    <Statement FileIndex="2976" Line="168" Column="9" EndLine="168" EndColumn="10" Covered="False" />
+                </Method>
+            </Type>
+            <Method Name=".ctor():System.Void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
+                <Statement FileIndex="2976" Line="28" Column="9" EndLine="28" EndColumn="35" Covered="True" />
+                <Statement FileIndex="2976" Line="30" Column="13" EndLine="30" EndColumn="150" Covered="True" />
+                <Statement FileIndex="2976" Line="31" Column="13" EndLine="31" EndColumn="91" Covered="True" />
+                <Statement FileIndex="2976" Line="32" Column="9" EndLine="32" EndColumn="10" Covered="True" />
+            </Method>
+            <Method Name=".ctor(Dns.SDK.RedisDatabase.DatabaseName):System.Void" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
+                <Statement FileIndex="2976" Line="34" Column="9" EndLine="34" EndColumn="60" Covered="False" />
+                <Statement FileIndex="2976" Line="36" Column="13" EndLine="36" EndColumn="42" Covered="False" />
+                <Statement FileIndex="2976" Line="37" Column="13" EndLine="37" EndColumn="91" Covered="False" />
+                <Statement FileIndex="2976" Line="38" Column="9" EndLine="38" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="Get&lt;T&gt;(System.String):T" CoveredStatements="0" TotalStatements="5" CoveragePercent="0">
+                <Statement FileIndex="2976" Line="42" Column="13" EndLine="42" EndColumn="55" Covered="False" />
+                <Statement FileIndex="2976" Line="43" Column="13" EndLine="43" EndColumn="60" Covered="False" />
+                <Statement FileIndex="2976" Line="45" Column="13" EndLine="45" EndColumn="42" Covered="False" />
+                <Statement FileIndex="2976" Line="46" Column="17" EndLine="46" EndColumn="33" Covered="False" />
+                <Statement FileIndex="2976" Line="48" Column="13" EndLine="48" EndColumn="53" Covered="False" />
+            </Method>
+            <Method Name="GetEnumerator():System.Collections.IEnumerator" CoveredStatements="0" TotalStatements="12" CoveragePercent="0">
+                <Statement FileIndex="2976" Line="53" Column="13" EndLine="53" EndColumn="55" Covered="False" />
+                <Statement FileIndex="2976" Line="54" Column="13" EndLine="54" EndColumn="52" Covered="False" />
+                <Statement FileIndex="2976" Line="55" Column="13" EndLine="55" EndColumn="53" Covered="False" />
+                <Statement FileIndex="2976" Line="57" Column="38" EndLine="57" EndColumn="63" Covered="False" />
+                <Statement FileIndex="2976" Line="57" Column="22" EndLine="57" EndColumn="34" Covered="False" />
+                <Statement FileIndex="2976" Line="59" Column="37" EndLine="59" EndColumn="114" Covered="False" />
+                <Statement FileIndex="2976" Line="59" Column="26" EndLine="59" EndColumn="33" Covered="False" />
+                <Statement FileIndex="2976" Line="61" Column="21" EndLine="61" EndColumn="94" Covered="False" />
+                <Statement FileIndex="2976" Line="62" Column="21" EndLine="62" EndColumn="40" Covered="False" />
+                <Statement FileIndex="2976" Line="59" Column="34" EndLine="59" EndColumn="36" Covered="False" />
+                <Statement FileIndex="2976" Line="57" Column="35" EndLine="57" EndColumn="37" Covered="False" />
+                <Statement FileIndex="2976" Line="66" Column="13" EndLine="66" EndColumn="44" Covered="False" />
+            </Method>
+            <Method Name="GetFullKey(System.String):System.String" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2976" Line="185" Column="13" EndLine="185" EndColumn="45" Covered="False" />
+            </Method>
+            <Method Name="GetKeyPrefix():System.String" CoveredStatements="0" TotalStatements="3" CoveragePercent="0">
+                <Statement FileIndex="2976" Line="177" Column="13" EndLine="177" EndColumn="65" Covered="False" />
+                <Statement FileIndex="2976" Line="178" Column="17" EndLine="178" EndColumn="34" Covered="False" />
+                <Statement FileIndex="2976" Line="180" Column="13" EndLine="180" EndColumn="47" Covered="False" />
+            </Method>
+            <Method Name="GetKeyWithoutPrefix(System.String):System.String" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2976" Line="172" Column="13" EndLine="172" EndColumn="52" Covered="False" />
+            </Method>
+            <Method Name="HasValue(System.String):System.Boolean" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <Statement FileIndex="2976" Line="71" Column="13" EndLine="71" EndColumn="55" Covered="False" />
+                <Statement FileIndex="2976" Line="72" Column="13" EndLine="72" EndColumn="50" Covered="False" />
+            </Method>
+            <Method Name="InsertAbsolute&lt;T&gt;(System.String,T,System.TimeSpan):System.Void" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
+                <Statement FileIndex="2976" Line="84" Column="13" EndLine="84" EndColumn="55" Covered="False" />
+                <Statement FileIndex="2976" Line="85" Column="13" EndLine="85" EndColumn="53" Covered="False" />
+                <Statement FileIndex="2976" Line="87" Column="13" EndLine="87" EndColumn="75" Covered="False" />
+                <Statement FileIndex="2976" Line="88" Column="9" EndLine="88" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="InsertAbsoluteAsync&lt;T&gt;(System.String,T,System.TimeSpan):System.Threading.Tasks.Task" CoveredStatements="0" TotalStatements="3" CoveragePercent="0">
+                <Statement FileIndex="2976" Line="99" Column="13" EndLine="99" EndColumn="55" Covered="False" />
+                <Statement FileIndex="2976" Line="100" Column="13" EndLine="100" EndColumn="53" Covered="False" />
+                <Statement FileIndex="2976" Line="102" Column="13" EndLine="102" EndColumn="87" Covered="False" />
+            </Method>
+            <Method Name="InsertWithSlidingExpiration&lt;T&gt;(System.String,T,System.TimeSpan):System.Void" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <Statement FileIndex="2976" Line="116" Column="13" EndLine="116" EndColumn="66" Covered="False" />
+                <Statement FileIndex="2976" Line="117" Column="9" EndLine="117" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="Remove(System.String):System.Void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0">
+                <Statement FileIndex="2976" Line="121" Column="13" EndLine="121" EndColumn="55" Covered="False" />
+                <Statement FileIndex="2976" Line="122" Column="13" EndLine="122" EndColumn="66" Covered="False" />
+                <Statement FileIndex="2976" Line="123" Column="9" EndLine="123" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="TryGet&lt;T&gt;(System.String,T):System.Boolean" CoveredStatements="0" TotalStatements="12" CoveragePercent="0">
+                <Statement FileIndex="2976" Line="127" Column="13" EndLine="127" EndColumn="33" Covered="False" />
+                <Statement FileIndex="2976" Line="129" Column="13" EndLine="129" EndColumn="55" Covered="False" />
+                <Statement FileIndex="2976" Line="130" Column="13" EndLine="130" EndColumn="54" Covered="False" />
+                <Statement FileIndex="2976" Line="132" Column="13" EndLine="132" EndColumn="36" Covered="False" />
+                <Statement FileIndex="2976" Line="133" Column="17" EndLine="133" EndColumn="30" Covered="False" />
+                <Statement FileIndex="2976" Line="137" Column="17" EndLine="137" EndColumn="52" Covered="False" />
+                <Statement FileIndex="2976" Line="138" Column="13" EndLine="138" EndColumn="14" Covered="False" />
+                <Statement FileIndex="2976" Line="139" Column="13" EndLine="139" EndColumn="33" Covered="False" />
+                <Statement FileIndex="2976" Line="141" Column="17" EndLine="141" EndColumn="120" Covered="False" />
+                <Statement FileIndex="2976" Line="142" Column="17" EndLine="142" EndColumn="30" Covered="False" />
+                <Statement FileIndex="2976" Line="145" Column="13" EndLine="145" EndColumn="25" Covered="False" />
+                <Statement FileIndex="2976" Line="146" Column="9" EndLine="146" EndColumn="10" Covered="False" />
+            </Method>
+        </Type>
+    </Namespace>
+    <Namespace Name="Dns.Tech.Dependencies" CoveredStatements="15" TotalStatements="29" CoveragePercent="52">
+        <Type Name="RegisterFactoryExtensions" CoveredStatements="8" TotalStatements="16" CoveragePercent="50">
+            <Type Name="&lt;&gt;c__DisplayClass0_0&lt;TInterface,TImpl&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;AddFactory&gt;b__0(System.IServiceProvider):System.Func&lt;TInterface&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2967" Line="19" Column="17" EndLine="19" EndColumn="65" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass0_1&lt;TInterface,TImpl&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;AddFactory&gt;b__1():TInterface" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2967" Line="19" Column="23" EndLine="19" EndColumn="65" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass1_0&lt;TInterface,TImpl,T1&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;AddFactory&gt;b__0(System.IServiceProvider):System.Func&lt;T1,TInterface&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2967" Line="30" Column="17" EndLine="30" EndColumn="85" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass1_1&lt;TInterface,TImpl,T1&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;AddFactory&gt;b__1(T1):TInterface" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2967" Line="30" Column="25" EndLine="30" EndColumn="85" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass2_0&lt;TInterface,TImpl,T1,T2&gt;" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Method Name="&lt;AddFactory&gt;b__0(System.IServiceProvider):System.Func&lt;T1,T2,TInterface&gt;" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                    <Statement FileIndex="2967" Line="41" Column="17" EndLine="41" EndColumn="99" Covered="True" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass2_1&lt;TInterface,TImpl,T1,T2&gt;" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Method Name="&lt;AddFactory&gt;b__1(T1,T2):TInterface" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                    <Statement FileIndex="2967" Line="41" Column="33" EndLine="41" EndColumn="99" Covered="True" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass3_0&lt;TInterface,TImpl,T1,T2,T3&gt;" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Method Name="&lt;AddFactory&gt;b__0(System.IServiceProvider):System.Func&lt;T1,T2,T3,TInterface&gt;" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                    <Statement FileIndex="2967" Line="52" Column="17" EndLine="52" EndColumn="111" Covered="True" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__DisplayClass3_1&lt;TInterface,TImpl,T1,T2,T3&gt;" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Method Name="&lt;AddFactory&gt;b__1(T1,T2,T3):TInterface" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                    <Statement FileIndex="2967" Line="52" Column="39" EndLine="52" EndColumn="111" Covered="True" />
+                </Method>
+            </Type>
+            <Method Name="AddFactory&lt;TInterface,TImpl,T1,T2,T3&gt;(Microsoft.Extensions.DependencyInjection.IServiceCollection):Microsoft.Extensions.DependencyInjection.IServiceCollection" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+                <Statement FileIndex="2967" Line="49" Column="13" EndLine="49" EndColumn="121" Covered="True" />
+                <Statement FileIndex="2967" Line="51" Column="13" EndLine="52" EndColumn="113" Covered="True" />
+            </Method>
+            <Method Name="AddFactory&lt;TInterface,TImpl,T1,T2&gt;(Microsoft.Extensions.DependencyInjection.IServiceCollection):Microsoft.Extensions.DependencyInjection.IServiceCollection" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+                <Statement FileIndex="2967" Line="38" Column="13" EndLine="38" EndColumn="109" Covered="True" />
+                <Statement FileIndex="2967" Line="40" Column="13" EndLine="41" EndColumn="101" Covered="True" />
+            </Method>
+            <Method Name="AddFactory&lt;TInterface,TImpl,T1&gt;(Microsoft.Extensions.DependencyInjection.IServiceCollection):Microsoft.Extensions.DependencyInjection.IServiceCollection" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <Statement FileIndex="2967" Line="27" Column="13" EndLine="27" EndColumn="97" Covered="False" />
+                <Statement FileIndex="2967" Line="29" Column="13" EndLine="30" EndColumn="87" Covered="False" />
+            </Method>
+            <Method Name="AddFactory&lt;TInterface,TImpl&gt;(Microsoft.Extensions.DependencyInjection.IServiceCollection):Microsoft.Extensions.DependencyInjection.IServiceCollection" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <Statement FileIndex="2967" Line="16" Column="13" EndLine="16" EndColumn="92" Covered="False" />
+                <Statement FileIndex="2967" Line="18" Column="13" EndLine="19" EndColumn="67" Covered="False" />
+            </Method>
+        </Type>
+        <Type Name="ServiceScopeProvider" CoveredStatements="7" TotalStatements="13" CoveragePercent="54">
+            <Type Name="NotMyScope" CoveredStatements="0" TotalStatements="5" CoveragePercent="0">
+                <Method Name=".ctor(System.IServiceProvider):System.Void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0">
+                    <Statement FileIndex="2968" Line="32" Column="13" EndLine="32" EndColumn="64" Covered="False" />
+                    <Statement FileIndex="2968" Line="34" Column="17" EndLine="34" EndColumn="51" Covered="False" />
+                    <Statement FileIndex="2968" Line="35" Column="13" EndLine="35" EndColumn="14" Covered="False" />
+                </Method>
+                <Method Name="Dispose():System.Void" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2968" Line="41" Column="13" EndLine="41" EndColumn="14" Covered="False" />
+                </Method>
+                <Method Name="get_ServiceProvider():System.IServiceProvider" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2968" Line="44" Column="55" EndLine="44" EndColumn="59" Covered="False" />
+                </Method>
+            </Type>
+            <Method Name=".ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory):System.Void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
+                <Statement FileIndex="2968" Line="13" Column="9" EndLine="13" EndColumn="102" Covered="True" />
+                <Statement FileIndex="2968" Line="15" Column="13" EndLine="15" EndColumn="34" Covered="True" />
+                <Statement FileIndex="2968" Line="16" Column="13" EndLine="16" EndColumn="42" Covered="True" />
+                <Statement FileIndex="2968" Line="17" Column="9" EndLine="17" EndColumn="10" Covered="True" />
+            </Method>
+            <Method Name="GetOrCreateScope():Microsoft.Extensions.DependencyInjection.IServiceScope" CoveredStatements="3" TotalStatements="4" CoveragePercent="75">
+                <Statement FileIndex="2968" Line="23" Column="13" EndLine="23" EndColumn="67" Covered="True" />
+                <Statement FileIndex="2968" Line="24" Column="13" EndLine="24" EndColumn="34" Covered="True" />
+                <Statement FileIndex="2968" Line="25" Column="17" EndLine="25" EndColumn="49" Covered="False" />
+                <Statement FileIndex="2968" Line="27" Column="13" EndLine="27" EndColumn="48" Covered="True" />
+            </Method>
+        </Type>
+    </Namespace>
+    <Namespace Name="Dns.Tech.DependencyInjection" CoveredStatements="9" TotalStatements="14" CoveragePercent="64">
+        <Type Name="DnsServiceProvider" CoveredStatements="9" TotalStatements="14" CoveragePercent="64">
+            <Method Name=".cctor():System.Void" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+                <Statement FileIndex="2963" Line="13" Column="9" EndLine="13" EndColumn="108" Covered="True" />
+                <Statement FileIndex="2963" Line="18" Column="9" EndLine="18" EndColumn="57" Covered="True" />
+            </Method>
+            <Method Name="CreateScope():System.IDisposable" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2963" Line="29" Column="52" EndLine="29" EndColumn="76" Covered="False" />
+            </Method>
+            <Method Name="Dispose():System.Void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0">
+                <Statement FileIndex="2963" Line="54" Column="13" EndLine="54" EndColumn="43" Covered="False" />
+                <Statement FileIndex="2963" Line="55" Column="13" EndLine="55" EndColumn="39" Covered="False" />
+                <Statement FileIndex="2963" Line="56" Column="9" EndLine="56" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="get_Instance():System.IServiceProvider" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Statement FileIndex="2963" Line="23" Column="52" EndLine="23" EndColumn="63" Covered="True" />
+            </Method>
+            <Method Name="GetScoped():System.IServiceProvider" CoveredStatements="4" TotalStatements="5" CoveragePercent="80">
+                <Statement FileIndex="2963" Line="33" Column="13" EndLine="33" EndColumn="33" Covered="True" />
+                <Statement FileIndex="2963" Line="34" Column="17" EndLine="34" EndColumn="90" Covered="False" />
+                <Statement FileIndex="2963" Line="36" Column="13" EndLine="36" EndColumn="44" Covered="True" />
+                <Statement FileIndex="2963" Line="37" Column="17" EndLine="37" EndColumn="60" Covered="True" />
+                <Statement FileIndex="2963" Line="39" Column="13" EndLine="39" EndColumn="55" Covered="True" />
+            </Method>
+            <Method Name="Init(System.IServiceProvider):System.Void" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+                <Statement FileIndex="2963" Line="48" Column="13" EndLine="48" EndColumn="32" Covered="True" />
+                <Statement FileIndex="2963" Line="49" Column="9" EndLine="49" EndColumn="10" Covered="True" />
+            </Method>
+        </Type>
+    </Namespace>
+    <Namespace Name="Dns.Tech.DependencyInjection.Dependencies" CoveredStatements="15" TotalStatements="26" CoveragePercent="58">
+        <Type Name="CommonCountryProvider" CoveredStatements="0" TotalStatements="7" CoveragePercent="0">
+            <Method Name=".ctor(Microsoft.Extensions.Options.IOptions&lt;Dns.Infrastructure.Web.AppConfigration.Settings.WebSalesConfiguration&gt;):System.Void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0">
+                <Statement FileIndex="2964" Line="25" Column="9" EndLine="25" EndColumn="78" Covered="False" />
+                <Statement FileIndex="2964" Line="27" Column="13" EndLine="27" EndColumn="45" Covered="False" />
+                <Statement FileIndex="2964" Line="28" Column="9" EndLine="28" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="CurrentCountryIs(Dns.Infrastructure.Web.AppConfigration.CountryEnum):System.Boolean" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2964" Line="33" Column="13" EndLine="33" EndColumn="39" Covered="False" />
+            </Method>
+            <Method Name="get_Country():Dns.Infrastructure.Web.AppConfigration.CountryEnum" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2964" Line="20" Column="38" EndLine="20" EndColumn="42" Covered="False" />
+            </Method>
+            <Method Name="get_IsKazakhstan():System.Boolean" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2964" Line="14" Column="37" EndLine="14" EndColumn="62" Covered="False" />
+            </Method>
+            <Method Name="get_IsRussia():System.Boolean" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2964" Line="17" Column="33" EndLine="17" EndColumn="58" Covered="False" />
+            </Method>
+        </Type>
+        <Type Name="DependencyProvider" CoveredStatements="15" TotalStatements="15" CoveragePercent="100">
+            <Type Name="&lt;&gt;c__0&lt;TInterface,TRussiaImplementation,TKazakhstanImplementation&gt;" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+                <Method Name="&lt;RegisterCountryDependency&gt;b__0_0(System.IServiceProvider):TInterface" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+                    <Statement FileIndex="2965" Line="28" Column="21" EndLine="28" EndColumn="76" Covered="True" />
+                    <Statement FileIndex="2965" Line="29" Column="21" EndLine="31" EndColumn="85" Covered="True" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__1&lt;TInterface,TRussiaImplementation,TKazakhstanImplementation&gt;" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+                <Method Name="&lt;RegisterScopedCountryDependency&gt;b__1_0(System.IServiceProvider):TInterface" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+                    <Statement FileIndex="2965" Line="53" Column="21" EndLine="53" EndColumn="76" Covered="True" />
+                    <Statement FileIndex="2965" Line="54" Column="21" EndLine="56" EndColumn="85" Covered="True" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__2&lt;TInterface,TDocumentLegacyImplementation,TCustomerOrderImplementation&gt;" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+                <Method Name="&lt;RegisterScopedSalesDependency&gt;b__2_0(System.IServiceProvider):TInterface" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+                    <Statement FileIndex="2965" Line="78" Column="21" EndLine="78" EndColumn="76" Covered="True" />
+                    <Statement FileIndex="2965" Line="79" Column="21" EndLine="81" EndColumn="93" Covered="True" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__3&lt;TInterface,TDocumentLegacyImplementation,TCustomerOrderImplementation&gt;" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+                <Method Name="&lt;RegisterSalesDependency&gt;b__3_0(System.IServiceProvider):TInterface" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+                    <Statement FileIndex="2965" Line="103" Column="21" EndLine="103" EndColumn="76" Covered="True" />
+                    <Statement FileIndex="2965" Line="104" Column="21" EndLine="106" EndColumn="93" Covered="True" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__4&lt;TManagerInterface,TDocumentLegacyImplementation,TOrderManagerClass,TOrderDecoratorClass&gt;" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+                <Method Name="&lt;RegisterDecoratedSalesDependency&gt;b__4_0(System.IServiceProvider):TManagerInterface" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+                    <Statement FileIndex="2965" Line="122" Column="21" EndLine="122" EndColumn="76" Covered="True" />
+                    <Statement FileIndex="2965" Line="123" Column="21" EndLine="125" EndColumn="100" Covered="True" />
+                </Method>
+            </Type>
+            <Method Name="RegisterCountryDependency&lt;TInterface,TRussiaImplementation,TKazakhstanImplementation&gt;(Microsoft.Extensions.DependencyInjection.IServiceCollection):Microsoft.Extensions.DependencyInjection.IServiceCollection" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Statement FileIndex="2965" Line="23" Column="13" EndLine="32" EndColumn="20" Covered="True" />
+            </Method>
+            <Method Name="RegisterDecoratedSalesDependency&lt;TManagerInterface,TDocumentLegacyImplementation,TOrderManagerClass,TOrderDecoratorClass&gt;(Microsoft.Extensions.DependencyInjection.IServiceCollection):Microsoft.Extensions.DependencyInjection.IServiceCollection" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Statement FileIndex="2965" Line="117" Column="13" EndLine="126" EndColumn="20" Covered="True" />
+            </Method>
+            <Method Name="RegisterSalesDependency&lt;TInterface,TDocumentLegacyImplementation,TCustomerOrderImplementation&gt;(Microsoft.Extensions.DependencyInjection.IServiceCollection):Microsoft.Extensions.DependencyInjection.IServiceCollection" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Statement FileIndex="2965" Line="98" Column="13" EndLine="107" EndColumn="20" Covered="True" />
+            </Method>
+            <Method Name="RegisterScopedCountryDependency&lt;TInterface,TRussiaImplementation,TKazakhstanImplementation&gt;(Microsoft.Extensions.DependencyInjection.IServiceCollection):Microsoft.Extensions.DependencyInjection.IServiceCollection" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Statement FileIndex="2965" Line="48" Column="13" EndLine="57" EndColumn="20" Covered="True" />
+            </Method>
+            <Method Name="RegisterScopedSalesDependency&lt;TInterface,TDocumentLegacyImplementation,TCustomerOrderImplementation&gt;(Microsoft.Extensions.DependencyInjection.IServiceCollection):Microsoft.Extensions.DependencyInjection.IServiceCollection" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Statement FileIndex="2965" Line="73" Column="13" EndLine="82" EndColumn="20" Covered="True" />
+            </Method>
+        </Type>
+        <Type Name="RegisterDecoratedManagerExtensions" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
+            <Type Name="&lt;&gt;c__0&lt;TManagerInterface,TManagerClass,TDecoratorClass&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;RegisterDecoratedScoped&gt;b__0_0(System.IServiceProvider):TManagerInterface" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2966" Line="20" Column="59" EndLine="21" EndColumn="66" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;&gt;c__1&lt;TManagerInterface,TManagerClass,TDecoratorClass&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;RegisterDecoratedSingleton&gt;b__1_0(System.IServiceProvider):TManagerInterface" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2966" Line="36" Column="62" EndLine="37" EndColumn="66" Covered="False" />
+                </Method>
+            </Type>
+            <Method Name="RegisterDecoratedScoped&lt;TManagerInterface,TManagerClass,TDecoratorClass&gt;(Microsoft.Extensions.DependencyInjection.IServiceCollection):Microsoft.Extensions.DependencyInjection.IServiceCollection" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2966" Line="19" Column="13" EndLine="21" EndColumn="68" Covered="False" />
+            </Method>
+            <Method Name="RegisterDecoratedSingleton&lt;TManagerInterface,TManagerClass,TDecoratorClass&gt;(Microsoft.Extensions.DependencyInjection.IServiceCollection):Microsoft.Extensions.DependencyInjection.IServiceCollection" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2966" Line="35" Column="13" EndLine="37" EndColumn="68" Covered="False" />
+            </Method>
+        </Type>
+    </Namespace>
+    <Namespace Name="Dns.Tech.Enums" CoveredStatements="6" TotalStatements="23" CoveragePercent="26">
+        <Type Name="EnumExtensions" CoveredStatements="6" TotalStatements="15" CoveragePercent="40">
+            <Type Name="&lt;GetFlagList&gt;d__0&lt;TEnum&gt;" CoveredStatements="6" TotalStatements="6" CoveragePercent="100">
+                <Method Name="MoveNext():System.Boolean" CoveredStatements="6" TotalStatements="6" CoveragePercent="100">
+                    <Statement FileIndex="2960" Line="18" Column="36" EndLine="18" EndColumn="68" Covered="True" />
+                    <Statement FileIndex="2960" Line="18" Column="22" EndLine="18" EndColumn="32" Covered="True" />
+                    <Statement FileIndex="2960" Line="20" Column="17" EndLine="20" EndColumn="43" Covered="True" />
+                    <Statement FileIndex="2960" Line="22" Column="21" EndLine="22" EndColumn="47" Covered="True" />
+                    <Statement FileIndex="2960" Line="18" Column="33" EndLine="18" EndColumn="35" Covered="True" />
+                    <Statement FileIndex="2960" Line="25" Column="9" EndLine="25" EndColumn="10" Covered="True" />
+                </Method>
+            </Type>
+            <Method Name="GetDescription(System.Enum):System.String" CoveredStatements="0" TotalStatements="3" CoveragePercent="0">
+                <Statement FileIndex="2960" Line="49" Column="13" EndLine="49" EndColumn="73" Covered="False" />
+                <Statement FileIndex="2960" Line="50" Column="13" EndLine="50" EndColumn="75" Covered="False" />
+                <Statement FileIndex="2960" Line="52" Column="13" EndLine="52" EndColumn="67" Covered="False" />
+            </Method>
+            <Method Name="GetText(System.Enum):System.String" CoveredStatements="0" TotalStatements="6" CoveragePercent="0">
+                <Statement FileIndex="2960" Line="33" Column="13" EndLine="33" EndColumn="48" Covered="False" />
+                <Statement FileIndex="2960" Line="34" Column="13" EndLine="34" EndColumn="62" Covered="False" />
+                <Statement FileIndex="2960" Line="35" Column="13" EndLine="35" EndColumn="72" Covered="False" />
+                <Statement FileIndex="2960" Line="37" Column="13" EndLine="37" EndColumn="30" Covered="False" />
+                <Statement FileIndex="2960" Line="38" Column="17" EndLine="38" EndColumn="75" Covered="False" />
+                <Statement FileIndex="2960" Line="40" Column="13" EndLine="40" EndColumn="30" Covered="False" />
+            </Method>
+        </Type>
+        <Type Name="EnumTextAttribute" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
+            <Method Name=".ctor(System.String):System.Void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0">
+                <Statement FileIndex="2961" Line="15" Column="9" EndLine="15" EndColumn="46" Covered="False" />
+                <Statement FileIndex="2961" Line="17" Column="13" EndLine="17" EndColumn="25" Covered="False" />
+                <Statement FileIndex="2961" Line="18" Column="9" EndLine="18" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="get_Text():System.String" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2961" Line="23" Column="30" EndLine="23" EndColumn="34" Covered="False" />
+            </Method>
+        </Type>
+        <Type Name="EnumTextNotFilledException" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
+            <Method Name=".ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <Statement FileIndex="2962" Line="21" Column="70" EndLine="21" EndColumn="89" Covered="False" />
+                <Statement FileIndex="2962" Line="22" Column="11" EndLine="22" EndColumn="12" Covered="False" />
+            </Method>
+            <Method Name=".ctor(System.Type,System.Enum):System.Void" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <Statement FileIndex="2962" Line="16" Column="15" EndLine="16" EndColumn="89" Covered="False" />
+                <Statement FileIndex="2962" Line="17" Column="11" EndLine="17" EndColumn="12" Covered="False" />
+            </Method>
+        </Type>
+    </Namespace>
+    <Namespace Name="Dns.Tech.Exceptions" CoveredStatements="0" TotalStatements="17" CoveragePercent="0">
+        <Type Name="InformationException" CoveredStatements="0" TotalStatements="9" CoveragePercent="0">
+            <Method Name=".ctor():System.Void" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <Statement FileIndex="2958" Line="8" Column="9" EndLine="8" EndColumn="38" Covered="False" />
+                <Statement FileIndex="2958" Line="8" Column="41" EndLine="8" EndColumn="42" Covered="False" />
+            </Method>
+            <Method Name=".ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <Statement FileIndex="2958" Line="13" Column="70" EndLine="13" EndColumn="89" Covered="False" />
+                <Statement FileIndex="2958" Line="14" Column="11" EndLine="14" EndColumn="12" Covered="False" />
+            </Method>
+            <Method Name=".ctor(System.String):System.Void" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <Statement FileIndex="2958" Line="9" Column="55" EndLine="9" EndColumn="68" Covered="False" />
+                <Statement FileIndex="2958" Line="9" Column="71" EndLine="9" EndColumn="72" Covered="False" />
+            </Method>
+            <Method Name=".ctor(System.String,System.Exception):System.Void" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <Statement FileIndex="2958" Line="10" Column="72" EndLine="10" EndColumn="92" Covered="False" />
+                <Statement FileIndex="2958" Line="10" Column="95" EndLine="10" EndColumn="96" Covered="False" />
+            </Method>
+            <Method Name="ToString():System.String" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2958" Line="18" Column="13" EndLine="18" EndColumn="28" Covered="False" />
+            </Method>
+        </Type>
+        <Type Name="LoggingException" CoveredStatements="0" TotalStatements="8" CoveragePercent="0">
+            <Method Name=".ctor(System.String,System.Exception,System.Decimal):System.Void" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
+                <Statement FileIndex="2959" Line="16" Column="92" EndLine="16" EndColumn="121" Covered="False" />
+                <Statement FileIndex="2959" Line="18" Column="13" EndLine="18" EndColumn="29" Covered="False" />
+                <Statement FileIndex="2959" Line="19" Column="13" EndLine="19" EndColumn="29" Covered="False" />
+                <Statement FileIndex="2959" Line="20" Column="9" EndLine="20" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="get_IsLogged():System.Boolean" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2959" Line="12" Column="32" EndLine="12" EndColumn="36" Covered="False" />
+            </Method>
+            <Method Name="get_Ticket():System.Decimal" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2959" Line="14" Column="33" EndLine="14" EndColumn="37" Covered="False" />
+            </Method>
+            <Method Name="set_IsLogged(System.Boolean):System.Void" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2959" Line="12" Column="37" EndLine="12" EndColumn="41" Covered="False" />
+            </Method>
+            <Method Name="set_Ticket(System.Decimal):System.Void" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2959" Line="14" Column="38" EndLine="14" EndColumn="42" Covered="False" />
+            </Method>
+        </Type>
+    </Namespace>
+    <Namespace Name="Dns.Tech.Extensions" CoveredStatements="80" TotalStatements="116" CoveragePercent="69">
+        <Type Name="CollectionExtensionMethods" CoveredStatements="46" TotalStatements="50" CoveragePercent="92">
+            <Type Name="&lt;&gt;c__5&lt;T&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;WithIndex&gt;b__5_0(T,System.Int32):System.ValueTuple&lt;T,System.Int32&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2951" Line="152" Column="127" EndLine="152" EndColumn="140" Covered="False" />
+                </Method>
+            </Type>
+            <Type Name="&lt;TrySelect&gt;d__0&lt;TSource,TResult&gt;" CoveredStatements="16" TotalStatements="16" CoveragePercent="100">
+                <Method Name="MoveNext():System.Boolean" CoveredStatements="16" TotalStatements="16" CoveragePercent="100">
+                    <Statement FileIndex="2951" Line="27" Column="13" EndLine="27" EndColumn="32" Covered="True" />
+                    <Statement FileIndex="2951" Line="27" Column="33" EndLine="27" EndColumn="45" Covered="True" />
+                    <Statement FileIndex="2951" Line="28" Column="13" EndLine="28" EndColumn="34" Covered="True" />
+                    <Statement FileIndex="2951" Line="28" Column="35" EndLine="28" EndColumn="47" Covered="True" />
+                    <Statement FileIndex="2951" Line="30" Column="20" EndLine="30" EndColumn="59" Covered="True" />
+                    <Statement FileIndex="2951" Line="34" Column="21" EndLine="34" EndColumn="48" Covered="True" />
+                    <Statement FileIndex="2951" Line="39" Column="25" EndLine="39" EndColumn="52" Covered="True" />
+                    <Statement FileIndex="2951" Line="40" Column="29" EndLine="40" EndColumn="35" Covered="True" />
+                    <Statement FileIndex="2951" Line="42" Column="25" EndLine="42" EndColumn="60" Covered="True" />
+                    <Statement FileIndex="2951" Line="43" Column="21" EndLine="43" EndColumn="22" Covered="True" />
+                    <Statement FileIndex="2951" Line="44" Column="21" EndLine="44" EndColumn="26" Covered="True" />
+                    <Statement FileIndex="2951" Line="48" Column="25" EndLine="48" EndColumn="34" Covered="True" />
+                    <Statement FileIndex="2951" Line="51" Column="21" EndLine="51" EndColumn="38" Covered="True" />
+                    <Statement FileIndex="2951" Line="32" Column="17" EndLine="32" EndColumn="29" Covered="True" />
+                    <Statement FileIndex="2951" Line="53" Column="13" EndLine="53" EndColumn="14" Covered="True" />
+                    <Statement FileIndex="2951" Line="54" Column="9" EndLine="54" EndColumn="10" Covered="True" />
+                </Method>
+            </Type>
+            <Method Name="GetItemWithMaxPriority&lt;T&gt;(System.Collections.Generic.IEnumerable&lt;T&gt;):T" CoveredStatements="7" TotalStatements="8" CoveragePercent="88">
+                <Statement FileIndex="2951" Line="115" Column="13" EndLine="115" EndColumn="50" Covered="True" />
+                <Statement FileIndex="2951" Line="116" Column="13" EndLine="116" EndColumn="43" Covered="True" />
+                <Statement FileIndex="2951" Line="118" Column="18" EndLine="118" EndColumn="27" Covered="True" />
+                <Statement FileIndex="2951" Line="120" Column="17" EndLine="120" EndColumn="65" Covered="True" />
+                <Statement FileIndex="2951" Line="121" Column="21" EndLine="121" EndColumn="47" Covered="False" />
+                <Statement FileIndex="2951" Line="118" Column="49" EndLine="118" EndColumn="52" Covered="True" />
+                <Statement FileIndex="2951" Line="118" Column="29" EndLine="118" EndColumn="47" Covered="True" />
+                <Statement FileIndex="2951" Line="124" Column="13" EndLine="124" EndColumn="32" Covered="True" />
+            </Method>
+            <Method Name="GetOrAdd&lt;TKey,TValue&gt;(System.Collections.Concurrent.ConcurrentDictionary&lt;TKey,TValue&gt;,TKey,System.Object,System.Func&lt;TKey,TValue&gt;):TValue" CoveredStatements="6" TotalStatements="7" CoveragePercent="86">
+                <Statement FileIndex="2951" Line="94" Column="13" EndLine="94" EndColumn="60" Covered="True" />
+                <Statement FileIndex="2951" Line="95" Column="17" EndLine="95" EndColumn="30" Covered="True" />
+                <Statement FileIndex="2951" Line="97" Column="13" EndLine="97" EndColumn="34" Covered="True" />
+                <Statement FileIndex="2951" Line="99" Column="17" EndLine="99" EndColumn="79" Covered="False" />
+                <Statement FileIndex="2951" Line="102" Column="13" EndLine="102" EndColumn="28" Covered="True" />
+                <Statement FileIndex="2951" Line="104" Column="17" EndLine="104" EndColumn="58" Covered="True" />
+                <Statement FileIndex="2951" Line="106" Column="9" EndLine="106" EndColumn="10" Covered="True" />
+            </Method>
+            <Method Name="HasOnly&lt;TSource&gt;(System.Collections.Generic.IEnumerable&lt;TSource&gt;,TSource):System.Boolean" CoveredStatements="9" TotalStatements="9" CoveragePercent="100">
+                <Statement FileIndex="2951" Line="65" Column="13" EndLine="65" EndColumn="32" Covered="True" />
+                <Statement FileIndex="2951" Line="66" Column="17" EndLine="66" EndColumn="30" Covered="True" />
+                <Statement FileIndex="2951" Line="68" Column="20" EndLine="68" EndColumn="59" Covered="True" />
+                <Statement FileIndex="2951" Line="70" Column="17" EndLine="70" EndColumn="44" Covered="True" />
+                <Statement FileIndex="2951" Line="71" Column="21" EndLine="71" EndColumn="34" Covered="True" />
+                <Statement FileIndex="2951" Line="73" Column="17" EndLine="73" EndColumn="87" Covered="True" />
+                <Statement FileIndex="2951" Line="74" Column="21" EndLine="74" EndColumn="34" Covered="True" />
+                <Statement FileIndex="2951" Line="76" Column="17" EndLine="76" EndColumn="47" Covered="True" />
+                <Statement FileIndex="2951" Line="78" Column="9" EndLine="78" EndColumn="10" Covered="True" />
+            </Method>
+            <Method Name="IsListUnique&lt;T&gt;(System.Collections.Generic.IEnumerable&lt;T&gt;,System.Collections.Generic.IEqualityComparer&lt;T&gt;):System.Boolean" CoveredStatements="8" TotalStatements="8" CoveragePercent="100">
+                <Statement FileIndex="2951" Line="136" Column="13" EndLine="136" EndColumn="86" Covered="True" />
+                <Statement FileIndex="2951" Line="138" Column="32" EndLine="138" EndColumn="38" Covered="True" />
+                <Statement FileIndex="2951" Line="138" Column="22" EndLine="138" EndColumn="28" Covered="True" />
+                <Statement FileIndex="2951" Line="140" Column="17" EndLine="140" EndColumn="36" Covered="True" />
+                <Statement FileIndex="2951" Line="141" Column="21" EndLine="141" EndColumn="34" Covered="True" />
+                <Statement FileIndex="2951" Line="138" Column="29" EndLine="138" EndColumn="31" Covered="True" />
+                <Statement FileIndex="2951" Line="143" Column="13" EndLine="143" EndColumn="25" Covered="True" />
+                <Statement FileIndex="2951" Line="144" Column="9" EndLine="144" EndColumn="10" Covered="True" />
+            </Method>
+            <Method Name="WithIndex&lt;T&gt;(System.Collections.Generic.IEnumerable&lt;T&gt;):System.Collections.Generic.IEnumerable&lt;System.ValueTuple&lt;T,System.Int32&gt;&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2951" Line="152" Column="98" EndLine="152" EndColumn="141" Covered="False" />
+            </Method>
+        </Type>
+        <Type Name="DateTimeExtensions" CoveredStatements="25" TotalStatements="30" CoveragePercent="83">
+            <Method Name=".cctor():System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Statement FileIndex="2952" Line="14" Column="9" EndLine="14" EndColumn="77" Covered="True" />
+            </Method>
+            <Method Name="DateOfClosedPeriod(System.DateTime):System.DateTime" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+                <Statement FileIndex="2952" Line="85" Column="13" EndLine="85" EndColumn="73" Covered="True" />
+                <Statement FileIndex="2952" Line="86" Column="13" EndLine="88" EndColumn="39" Covered="True" />
+                <Statement FileIndex="2952" Line="90" Column="13" EndLine="90" EndColumn="49" Covered="True" />
+            </Method>
+            <Method Name="IsClosedPeriod(System.DateTime,System.DateTime):System.Boolean" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2952" Line="100" Column="13" EndLine="100" EndColumn="71" Covered="False" />
+            </Method>
+            <Method Name="IsInInterval(System.DateTime,System.DateTime,System.DateTime):System.Boolean" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2952" Line="111" Column="13" EndLine="111" EndColumn="59" Covered="False" />
+            </Method>
+            <Method Name="IsMSSQLDateTime(System.DateTime):System.Boolean" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2952" Line="120" Column="13" EndLine="120" EndColumn="102" Covered="False" />
+            </Method>
+            <Method Name="IsPreQuarterFinished(System.DateTime,System.DateTime):System.Boolean" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+                <Statement FileIndex="2952" Line="150" Column="13" EndLine="150" EndColumn="102" Covered="True" />
+                <Statement FileIndex="2952" Line="151" Column="13" EndLine="151" EndColumn="57" Covered="True" />
+            </Method>
+            <Method Name="NearestQuarterStart(System.DateTime):System.DateTime" CoveredStatements="9" TotalStatements="9" CoveragePercent="100">
+                <Statement FileIndex="2952" Line="27" Column="13" EndLine="27" EndColumn="41" Covered="True" />
+                <Statement FileIndex="2952" Line="28" Column="13" EndLine="28" EndColumn="39" Covered="True" />
+                <Statement FileIndex="2952" Line="30" Column="13" EndLine="30" EndColumn="74" Covered="True" />
+                <Statement FileIndex="2952" Line="32" Column="17" EndLine="32" EndColumn="65" Covered="True" />
+                <Statement FileIndex="2952" Line="34" Column="18" EndLine="34" EndColumn="79" Covered="True" />
+                <Statement FileIndex="2952" Line="36" Column="17" EndLine="36" EndColumn="66" Covered="True" />
+                <Statement FileIndex="2952" Line="38" Column="18" EndLine="38" EndColumn="79" Covered="True" />
+                <Statement FileIndex="2952" Line="40" Column="17" EndLine="40" EndColumn="65" Covered="True" />
+                <Statement FileIndex="2952" Line="44" Column="17" EndLine="44" EndColumn="66" Covered="True" />
+            </Method>
+            <Method Name="NextQuarterStart(System.DateTime):System.DateTime" CoveredStatements="9" TotalStatements="9" CoveragePercent="100">
+                <Statement FileIndex="2952" Line="58" Column="13" EndLine="58" EndColumn="41" Covered="True" />
+                <Statement FileIndex="2952" Line="59" Column="13" EndLine="59" EndColumn="39" Covered="True" />
+                <Statement FileIndex="2952" Line="61" Column="13" EndLine="61" EndColumn="74" Covered="True" />
+                <Statement FileIndex="2952" Line="63" Column="17" EndLine="63" EndColumn="66" Covered="True" />
+                <Statement FileIndex="2952" Line="65" Column="18" EndLine="65" EndColumn="79" Covered="True" />
+                <Statement FileIndex="2952" Line="67" Column="17" EndLine="67" EndColumn="65" Covered="True" />
+                <Statement FileIndex="2952" Line="69" Column="18" EndLine="69" EndColumn="79" Covered="True" />
+                <Statement FileIndex="2952" Line="71" Column="17" EndLine="71" EndColumn="66" Covered="True" />
+                <Statement FileIndex="2952" Line="75" Column="17" EndLine="75" EndColumn="69" Covered="True" />
+            </Method>
+            <Method Name="PreviousQaurterStart(System.DateTime):System.DateTime" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Statement FileIndex="2952" Line="125" Column="13" EndLine="125" EndColumn="69" Covered="True" />
+            </Method>
+            <Method Name="ToGmt(System.DateTime,System.Int32):System.DateTime" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2952" Line="145" Column="13" EndLine="145" EndColumn="67" Covered="False" />
+            </Method>
+            <Method Name="ToISOString(System.DateTime,System.DateTimeKind):System.String" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2952" Line="135" Column="13" EndLine="135" EndColumn="67" Covered="False" />
+            </Method>
+        </Type>
+        <Type Name="DictionaryExtensions" CoveredStatements="0" TotalStatements="6" CoveragePercent="0">
+            <Method Name="TryAdd&lt;TValue&gt;(System.Collections.Generic.Dictionary&lt;System.String,TValue&gt;,System.String,TValue):System.Void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0">
+                <Statement FileIndex="2953" Line="19" Column="13" EndLine="19" EndColumn="46" Covered="False" />
+                <Statement FileIndex="2953" Line="20" Column="17" EndLine="20" EndColumn="44" Covered="False" />
+                <Statement FileIndex="2953" Line="21" Column="9" EndLine="21" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="TryAddNotNullOrWhiteSpaceString&lt;TKey&gt;(System.Collections.Generic.Dictionary&lt;TKey,System.String&gt;,TKey,System.String):System.Void" CoveredStatements="0" TotalStatements="3" CoveragePercent="0">
+                <Statement FileIndex="2953" Line="32" Column="13" EndLine="32" EndColumn="83" Covered="False" />
+                <Statement FileIndex="2953" Line="33" Column="17" EndLine="33" EndColumn="44" Covered="False" />
+                <Statement FileIndex="2953" Line="34" Column="9" EndLine="34" EndColumn="10" Covered="False" />
+            </Method>
+        </Type>
+        <Type Name="ExtensionMethods" CoveredStatements="3" TotalStatements="17" CoveragePercent="18">
+            <Type Name="&lt;&gt;c" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;TryGetManagedTypes&gt;b__1_0(System.Type):System.Boolean" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2954" Line="41" Column="44" EndLine="41" EndColumn="53" Covered="False" />
+                </Method>
+            </Type>
+            <Method Name="DeepClone&lt;T&gt;(T):T" CoveredStatements="0" TotalStatements="6" CoveragePercent="0">
+                <Statement FileIndex="2954" Line="20" Column="20" EndLine="20" EndColumn="60" Covered="False" />
+                <Statement FileIndex="2954" Line="22" Column="17" EndLine="22" EndColumn="67" Covered="False" />
+                <Statement FileIndex="2954" Line="23" Column="17" EndLine="23" EndColumn="48" Covered="False" />
+                <Statement FileIndex="2954" Line="24" Column="17" EndLine="24" EndColumn="37" Covered="False" />
+                <Statement FileIndex="2954" Line="25" Column="17" EndLine="25" EndColumn="57" Covered="False" />
+                <Statement FileIndex="2954" Line="27" Column="9" EndLine="27" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="IsNullOrWhiteSpace(System.String):System.Boolean" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Statement FileIndex="2954" Line="78" Column="13" EndLine="78" EndColumn="53" Covered="True" />
+            </Method>
+            <Method Name="TryGetManagedTypes(System.Reflection.Assembly):System.Collections.Generic.IEnumerable&lt;System.Type&gt;" CoveredStatements="0" TotalStatements="3" CoveragePercent="0">
+                <Statement FileIndex="2954" Line="37" Column="17" EndLine="37" EndColumn="44" Covered="False" />
+                <Statement FileIndex="2954" Line="41" Column="17" EndLine="41" EndColumn="55" Covered="False" />
+                <Statement FileIndex="2954" Line="43" Column="9" EndLine="43" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="With&lt;TSource,TResult&gt;(TSource,System.Func&lt;TSource,TResult&gt;):TResult" CoveredStatements="2" TotalStatements="3" CoveragePercent="67">
+                <Statement FileIndex="2954" Line="54" Column="13" EndLine="54" EndColumn="32" Covered="True" />
+                <Statement FileIndex="2954" Line="55" Column="17" EndLine="55" EndColumn="32" Covered="False" />
+                <Statement FileIndex="2954" Line="57" Column="13" EndLine="57" EndColumn="33" Covered="True" />
+            </Method>
+            <Method Name="With&lt;TSource,TResult&gt;(TSource,System.Func&lt;TSource,TResult&gt;,TResult):TResult" CoveredStatements="0" TotalStatements="3" CoveragePercent="0">
+                <Statement FileIndex="2954" Line="70" Column="13" EndLine="70" EndColumn="32" Covered="False" />
+                <Statement FileIndex="2954" Line="71" Column="17" EndLine="71" EndColumn="35" Covered="False" />
+                <Statement FileIndex="2954" Line="73" Column="13" EndLine="73" EndColumn="33" Covered="False" />
+            </Method>
+        </Type>
+        <Type Name="MethodResultDeconstructor" CoveredStatements="3" TotalStatements="8" CoveragePercent="38">
+            <Method Name="Deconstruct&lt;T&gt;(Dns.SDK.Types.MethodResults.MethodResult&lt;T&gt;,T,System.Collections.Generic.IEnumerable&lt;Dns.SDK.Types.MethodResults.Errors.IError&gt;):System.Void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+                <Statement FileIndex="2955" Line="30" Column="13" EndLine="30" EndColumn="62" Covered="True" />
+                <Statement FileIndex="2955" Line="31" Column="13" EndLine="31" EndColumn="64" Covered="True" />
+                <Statement FileIndex="2955" Line="32" Column="9" EndLine="32" EndColumn="10" Covered="True" />
+            </Method>
+            <Method Name="Deconstruct&lt;T1,T2&gt;(Dns.SDK.Types.MethodResults.MethodResult&lt;System.ValueTuple&lt;T1,T2&gt;&gt;,T1,T2,System.Collections.Generic.IEnumerable&lt;Dns.SDK.Types.MethodResults.Errors.IError&gt;):System.Void" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
+                <Statement FileIndex="2955" Line="51" Column="13" EndLine="51" EndColumn="39" Covered="False" />
+                <Statement FileIndex="2955" Line="52" Column="13" EndLine="52" EndColumn="35" Covered="False" />
+                <Statement FileIndex="2955" Line="53" Column="13" EndLine="53" EndColumn="35" Covered="False" />
+                <Statement FileIndex="2955" Line="54" Column="9" EndLine="54" EndColumn="10" Covered="False" />
+            </Method>
+            <Method Name="ToString(System.Collections.Generic.IEnumerable&lt;Dns.SDK.Types.MethodResults.Errors.IError&gt;):System.String" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2955" Line="58" Column="13" EndLine="58" EndColumn="57" Covered="False" />
+            </Method>
+        </Type>
+        <Type Name="StringExtensions" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+            <Type Name="&lt;&gt;c__DisplayClass0_0" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Method Name="&lt;ContainsAny&gt;b__0(System.String):System.Boolean" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                    <Statement FileIndex="2956" Line="15" Column="121" EndLine="15" EndColumn="147" Covered="False" />
+                </Method>
+            </Type>
+            <Method Name="ContainsAny(System.String,System.String[]):System.Boolean" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2956" Line="15" Column="100" EndLine="15" EndColumn="148" Covered="False" />
+            </Method>
+        </Type>
+        <Type Name="UriExtensions" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+            <Method Name="AppendPathSegment(System.Uri,System.String):System.Uri" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+                <Statement FileIndex="2957" Line="14" Column="13" EndLine="14" EndColumn="46" Covered="True" />
+                <Statement FileIndex="2957" Line="15" Column="17" EndLine="15" EndColumn="28" Covered="True" />
+                <Statement FileIndex="2957" Line="17" Column="13" EndLine="17" EndColumn="82" Covered="True" />
+            </Method>
+        </Type>
+    </Namespace>
+    <Namespace Name="Dns.Tech.Middlewares" CoveredStatements="0" TotalStatements="9" CoveragePercent="0">
+        <Type Name="ProcVersioningMiddleware" CoveredStatements="0" TotalStatements="9" CoveragePercent="0">
+            <Type Name="&lt;Invoke&gt;d__4" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
+                <Method Name="MoveNext():System.Void" CoveredStatements="0" TotalStatements="4" CoveragePercent="0">
+                    <Statement FileIndex="2950" Line="31" Column="13" EndLine="31" EndColumn="27" Covered="False" />
+                    <Statement FileIndex="2950" Line="32" Column="17" EndLine="32" EndColumn="47" Covered="False" />
+                    <Statement FileIndex="2950" Line="34" Column="13" EndLine="34" EndColumn="41" Covered="False" />
+                    <Statement FileIndex="2950" Line="35" Column="9" EndLine="35" EndColumn="10" Covered="False" />
+                </Method>
+            </Type>
+            <Method Name=".ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Options.IOptions&lt;Dns.Infrastructure.Web.AppConfigration.Settings.WebSalesConfiguration&gt;,Dns.SDK.DbMigration.V2.ProcVersioningManager):System.Void" CoveredStatements="0" TotalStatements="5" CoveragePercent="0">
+                <Statement FileIndex="2950" Line="19" Column="9" EndLine="19" EndColumn="148" Covered="False" />
+                <Statement FileIndex="2950" Line="21" Column="13" EndLine="21" EndColumn="26" Covered="False" />
+                <Statement FileIndex="2950" Line="22" Column="13" EndLine="22" EndColumn="60" Covered="False" />
+                <Statement FileIndex="2950" Line="23" Column="13" EndLine="23" EndColumn="106" Covered="False" />
+                <Statement FileIndex="2950" Line="24" Column="9" EndLine="24" EndColumn="10" Covered="False" />
+            </Method>
+        </Type>
+    </Namespace>
+    <Namespace Name="Dns.Tech.Types" CoveredStatements="0" TotalStatements="12" CoveragePercent="0">
+        <Type Name="Empty" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+            <Method Name="Equals(Dns.Tech.Types.Empty):System.Boolean" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2948" Line="16" Column="13" EndLine="16" EndColumn="25" Covered="False" />
+            </Method>
+        </Type>
+        <Type Name="EmptyDictionary" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+            <Method Name="Instance&lt;TKey,TVal&gt;():System.Collections.Generic.IReadOnlyDictionary&lt;TKey,TVal&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2949" Line="63" Column="81" EndLine="63" EndColumn="117" Covered="False" />
+            </Method>
+        </Type>
+        <Type Name="EmptyDictionary&lt;TKey,TVal&gt;" CoveredStatements="0" TotalStatements="10" CoveragePercent="0">
+            <Method Name=".cctor():System.Void" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2949" Line="14" Column="9" EndLine="14" EndColumn="100" Covered="False" />
+            </Method>
+            <Method Name="ContainsKey(TKey):System.Boolean" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2949" Line="32" Column="46" EndLine="32" EndColumn="51" Covered="False" />
+            </Method>
+            <Method Name="get_Count():System.Int32" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2949" Line="29" Column="29" EndLine="29" EndColumn="30" Covered="False" />
+            </Method>
+            <Method Name="get_Item(TKey):TVal" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2949" Line="42" Column="39" EndLine="42" EndColumn="106" Covered="False" />
+            </Method>
+            <Method Name="get_Keys():System.Collections.Generic.IEnumerable&lt;TKey&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2949" Line="45" Column="42" EndLine="45" EndColumn="66" Covered="False" />
+            </Method>
+            <Method Name="get_Values():System.Collections.Generic.IEnumerable&lt;TVal&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2949" Line="48" Column="44" EndLine="48" EndColumn="68" Covered="False" />
+            </Method>
+            <Method Name="GetEnumerator():System.Collections.Generic.IEnumerator&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TVal&gt;&gt;" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2949" Line="19" Column="13" EndLine="19" EndColumn="81" Covered="False" />
+            </Method>
+            <Method Name="System.Collections.IEnumerable.GetEnumerator():System.Collections.IEnumerator" CoveredStatements="0" TotalStatements="1" CoveragePercent="0">
+                <Statement FileIndex="2949" Line="25" Column="13" EndLine="25" EndColumn="36" Covered="False" />
+            </Method>
+            <Method Name="TryGetValue(TKey,TVal):System.Boolean" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+                <Statement FileIndex="2949" Line="37" Column="13" EndLine="37" EndColumn="30" Covered="False" />
+                <Statement FileIndex="2949" Line="38" Column="13" EndLine="38" EndColumn="26" Covered="False" />
+            </Method>
+        </Type>
+    </Namespace>
+    <Namespace Name="Dns.Tech.Utils" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+        <Type Name="EmailUtility" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+            <Method Name=".cctor():System.Void" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Statement FileIndex="2947" Line="10" Column="9" EndLine="12" EndColumn="212" Covered="True" />
+            </Method>
+            <Method Name="IsEmailValid(System.String):System.Boolean" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+                <Statement FileIndex="2947" Line="20" Column="13" EndLine="20" EndColumn="46" Covered="True" />
+            </Method>
+        </Type>
+    </Namespace>
+</Assembly>
+</Root>

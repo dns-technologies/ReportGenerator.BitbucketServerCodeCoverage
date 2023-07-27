@@ -26,17 +26,29 @@
       <None Update="Dns.CoreTests.xml">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
-      <None Update="ReportGeneratorWithPlugin_ShouldMergeCoverage\MergeTests.xml">
+      <None Update="ReportGeneratorWithPlugin_ShouldGenerateJson\win\TestCoverage1.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
-      <None Update="ReportGeneratorWithPlugin_ShouldGenerateJson\TestCoverage1.xml">
+      <None Update="ReportGeneratorWithPlugin_ShouldGenerateJson\win\Tests.ReportGeneratorWithPlugin_ShouldGenerateJson_dir=win.verified.json">
+        <ParentFile>Tests</ParentFile>
+        <DependentUpon>Tests.cs</DependentUpon>
+      </None>
+      <None Update="ReportGeneratorWithPlugin_ShouldMergeCoverage\win\MergeTests.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
-      <None Update="ReportGeneratorWithPlugin_ShouldGenerateJson\Tests.ReportGeneratorWithPlugin_ShouldGenerateJson.verified.json">
+      <None Update="ReportGeneratorWithPlugin_ShouldMergeCoverage\win\Tests.ReportGeneratorWithPlugin_ShouldMergeCoverage_dir=win.verified.json">
         <ParentFile>Tests</ParentFile>
+        <DependentUpon>Tests.cs</DependentUpon>
       </None>
-      <None Update="ReportGeneratorWithPlugin_ShouldMergeCoverage\Tests.ReportGeneratorWithPlugin_ShouldMergeCoverage.verified.json">
+      <None Update="ReportGeneratorWithPlugin_ShouldMergeCoverage\unix\MergeTests.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="ReportGeneratorWithPlugin_ShouldMergeCoverage\unix\Tests.ReportGeneratorWithPlugin_ShouldMergeCoverage_dir=unix.verified.json">
         <ParentFile>Tests</ParentFile>
+        <DependentUpon>Tests.cs</DependentUpon>
+      </None>
+      <None Update="ReportGeneratorWithPlugin_ShouldGenerateJson\unix\TestCoverage1.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
     </ItemGroup>
 

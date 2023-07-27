@@ -10,26 +10,38 @@ public class Tests
     {
     }
 
+    //Unfortunately, path-handling in .NET is runtime-dependent,
+    //and no good platform-agnostic path-handling library or VFS exist
+    //Therefore we have to copy test data with path modifications and guard them by platform
+    
     [Test]
-    public async Task ReportGeneratorWithPlugin_ShouldGenerateJson()
+    [TestCase("win", IncludePlatform = "WIN")]
+    [TestCase("unix", IncludePlatform = "UNIX")]
+    public async Task ReportGeneratorWithPlugin_ShouldGenerateJson(string dir)
     {
-        var g = new Generator();
-        var confBuilder = new ReportConfigurationBuilder();
-        var p = Combine(GetDirectoryName(Assembly.GetExecutingAssembly().Location),
-            "ReportGenerator.BitbucketServerCodeCoverage.dll");
-        Environment.SetEnvironmentVariable("SORT_FILE_PATHS", "1");
-        var targetdir = Combine("../../../", nameof(ReportGeneratorWithPlugin_ShouldGenerateJson));
+        var (g, confBuilder, p) = AssignStep();
+        var targetdir = Combine("../../../", nameof(ReportGeneratorWithPlugin_ShouldGenerateJson), dir);
         
         var conf = confBuilder.Create(new Dictionary<string, string>
         {
             ["reporttypes"] = "BitbucketServer",
-            ["reports"] = Combine("./", nameof(ReportGeneratorWithPlugin_ShouldGenerateJson), "TestCoverage1.xml"),
+            ["reports"] = Combine("./", nameof(ReportGeneratorWithPlugin_ShouldGenerateJson), dir, "TestCoverage1.xml"),
             ["targetdir"] = targetdir,
             ["verbosity"] = "Verbose",
             ["plugins"] = p,
         });
 
         await AssertStepAsync(g, conf, targetdir);
+    }
+
+    private static (Generator g, ReportConfigurationBuilder confBuilder, string p) AssignStep()
+    {
+        var g = new Generator();
+        var confBuilder = new ReportConfigurationBuilder();
+        var p = Combine(GetDirectoryName(Assembly.GetExecutingAssembly().Location),
+            "ReportGenerator.BitbucketServerCodeCoverage.dll");
+        Environment.SetEnvironmentVariable("SORT_FILE_PATHS", "1");
+        return (g, confBuilder, p);
     }
 
     private static async Task AssertStepAsync(Generator g, ReportConfiguration conf, string targetdir)
@@ -42,21 +54,19 @@ public class Tests
     }
 
     [Test]
-    public async Task ReportGeneratorWithPlugin_ShouldMergeCoverage()
+    [TestCase("win", IncludePlatform = "WIN")]
+    [TestCase("unix", IncludePlatform = "UNIX")]
+    public async Task ReportGeneratorWithPlugin_ShouldMergeCoverage(string dir)
     {
-        var g = new Generator();
-        var confBuilder = new ReportConfigurationBuilder();
-        var p = Combine(GetDirectoryName(Assembly.GetExecutingAssembly().Location),
-            "ReportGenerator.BitbucketServerCodeCoverage.dll");
-        Environment.SetEnvironmentVariable("SORT_FILE_PATHS", "1");
-        var targetdir = Combine("../../../", nameof(ReportGeneratorWithPlugin_ShouldMergeCoverage));
+        var (g, confBuilder, p) = AssignStep();
+        var targetdir = Combine("../../../", nameof(ReportGeneratorWithPlugin_ShouldMergeCoverage), dir);
         
         var conf = confBuilder.Create(new Dictionary<string, string>
         {
             ["reporttypes"] = "BitbucketServer",
-            ["reports"] = Combine("./", nameof(ReportGeneratorWithPlugin_ShouldMergeCoverage), "MergeTests.xml"),
+            ["reports"] = Combine("./", nameof(ReportGeneratorWithPlugin_ShouldMergeCoverage), dir, "MergeTests.xml"),
             ["targetdir"] = targetdir,
-            ["plugins"] = p,
+            ["plugins"] = p
         });
 
         await AssertStepAsync(g, conf, targetdir);
