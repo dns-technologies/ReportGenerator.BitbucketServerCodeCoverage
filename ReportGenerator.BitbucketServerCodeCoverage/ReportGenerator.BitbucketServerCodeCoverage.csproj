@@ -24,7 +24,7 @@
         <PackageTags>code coverage;reportgenerator;bitbucket server;plugin</PackageTags>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
-        <PackageIconUrl>https://avatars.githubusercontent.com/u/93560868?s=200&amp;v=4</PackageIconUrl>
+        <PackageIcon>icon.png</PackageIcon>
     </PropertyGroup>
 
     <ItemGroup>
@@ -41,10 +41,12 @@
     </ItemGroup>
 
     <ItemGroup>
-      <None Include="..\LICENSE" Pack="true" PackagePath="">
-      </None>
-      <Content Include="..\README.md" Pack="true" PackagePath="">
-      </Content>
+        <None Include="..\LICENSE" Pack="true" PackagePath="">
+        </None>
+        <None Include="..\README.md" Pack="true" PackagePath="">
+        </None>
+        <None Include="..\icon.png" Pack="true" PackagePath="">
+        </None>
     </ItemGroup>
 
     <Target Name="GetAdditionalDlls">
