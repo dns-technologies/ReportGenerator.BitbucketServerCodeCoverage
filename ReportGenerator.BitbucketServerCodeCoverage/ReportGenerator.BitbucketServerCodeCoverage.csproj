@@ -9,10 +9,21 @@
         <AnalysisMode>Recommended</AnalysisMode>
         <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
         <Nullable>enable</Nullable>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageVersion>1.0.3</PackageVersion>
         <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
         <TargetsForTfmSpecificBuildOutput>$(TargetsForTfmSpecificBuildOutput);GetAdditionalDlls</TargetsForTfmSpecificBuildOutput>
+    </PropertyGroup>
+    
+    <PropertyGroup>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageVersion>1.0.4</PackageVersion>
+        <PackageProjectUrl>https://github.com/dns-technologies/ReportGenerator.BitbucketServerCodeCoverage</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/dns-technologies/ReportGenerator.BitbucketServerCodeCoverage</RepositoryUrl>
+        <Copyright>Copyright (c) dns-technology 2023</Copyright>
+        <RepositoryType>git</RepositoryType>
+        <Authors>dns-technology</Authors>
+        <PackageTags>roslyn refactoring microsoft dependency injection</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
     </PropertyGroup>
 
     <ItemGroup>
@@ -26,6 +37,13 @@
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
       <PackageReference Include="ReportGenerator.Core" Version="5.1.23" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="..\LICENSE" Pack="true" PackagePath="">
+      </None>
+      <Content Include="..\README.md" Pack="true" PackagePath="">
+      </Content>
     </ItemGroup>
 
     <Target Name="GetAdditionalDlls">
