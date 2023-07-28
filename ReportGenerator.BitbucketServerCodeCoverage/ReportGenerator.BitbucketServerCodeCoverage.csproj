@@ -15,15 +15,16 @@
     
     <PropertyGroup>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageVersion>1.0.4</PackageVersion>
+        <PackageVersion>1.0.5</PackageVersion>
         <PackageProjectUrl>https://github.com/dns-technologies/ReportGenerator.BitbucketServerCodeCoverage</PackageProjectUrl>
         <RepositoryUrl>https://github.com/dns-technologies/ReportGenerator.BitbucketServerCodeCoverage</RepositoryUrl>
         <Copyright>Copyright (c) dns-technology 2023</Copyright>
         <RepositoryType>git</RepositoryType>
         <Authors>dns-technology</Authors>
-        <PackageTags>roslyn refactoring microsoft dependency injection</PackageTags>
+        <PackageTags>code coverage;reportgenerator;bitbucket server;plugin</PackageTags>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageIconUrl>https://avatars.githubusercontent.com/u/93560868?s=200&amp;v=4</PackageIconUrl>
     </PropertyGroup>
 
     <ItemGroup>
