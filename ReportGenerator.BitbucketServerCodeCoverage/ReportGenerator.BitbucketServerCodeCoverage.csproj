@@ -15,7 +15,7 @@
     
     <PropertyGroup>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageVersion>1.0.5</PackageVersion>
+        <PackageVersion>1.0.6</PackageVersion>
         <PackageProjectUrl>https://github.com/dns-technologies/ReportGenerator.BitbucketServerCodeCoverage</PackageProjectUrl>
         <RepositoryUrl>https://github.com/dns-technologies/ReportGenerator.BitbucketServerCodeCoverage</RepositoryUrl>
         <Copyright>Copyright (c) dns-technology 2023</Copyright>
@@ -25,6 +25,7 @@
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <PackageIcon>icon.png</PackageIcon>
+        <Description>This is a custom report plugin for ReportGenerator tool which produces coverage data in a json format supported by Bitbucket Server Code Coverage plugin.</Description>
     </PropertyGroup>
 
     <ItemGroup>
